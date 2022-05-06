@@ -1,3 +1,8 @@
 *{
     box-sizing: border-box;
 }
+:root{
+    --main-text-color: #D0C8B9;
+    --main-gold-color: #C5A35C;
+    --main-bg-color: #212020;
+}
