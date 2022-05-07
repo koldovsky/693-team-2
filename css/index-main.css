@@ -1,9 +1,15 @@
 /*Pawlo Bryk start*/
-
+.cooperation-bottom{
+    text-align: center;
+    background-color: var(--main-bg-color);
+    color: white;
+}
 .cooperation__h2{
     color: var(--main-gold-color);
-    text-align: center;
     text-size-adjust: 40px;
     font-family: 'BenchNine', sans-serif;
+}
+.cooperation__h3{
+    font-size: 24px;
 }
 /*Pawlo Bryk end*/
