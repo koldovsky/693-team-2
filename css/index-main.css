@@ -53,12 +53,25 @@
 
 .good_cigars_quality{
     background-color: #313524;
-    color: var(--);
+    opacity: 0.9;
+    color: var(--white-text-color);
+    font-size: 17px;
+    display: flex;
 }
 
 .good_cigar_seed{
     background-color: #3F3229;
+    opacity: 0.9;
+    color: var(--white-text-color);
+    font-size: 17px;
+    display: flex;
+    font-family: 'Robotto', sans-serif;
     }
-   
+.good_cigars_h3{
+    color: var(--main-gold-color);
+    font-size: 26px;
+    font-family: 'BenchNine', sans-serif;
+}
+
 
 /*Kateryna Danylo end */
