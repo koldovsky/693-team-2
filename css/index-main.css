@@ -22,11 +22,25 @@
 .cooperation__h3{
     font-size: 24px;
     font-family: 'BenchNine', sans-serif;
+    margin-top: 20px;
 
 }
 .cooperation_p{
     font-size: 17px;
     font-family: 'Robotto', sans-serif;
-    
+    margin-bottom: 20px;
+}
+.cooperation__info-button{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding:10px;
+    border: 2px;
+    border-radius: 10px;
+    margin-top: ;
+    background-color: var(--main-gold-color);
+}
+.cooperation__info-button:hover{
+    background-color: var(--main-text-color)
 }
 /*Pawlo Bryk end*/
