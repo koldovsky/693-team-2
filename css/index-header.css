@@ -26,4 +26,14 @@
     text-decoration: none;
     color: black;
 }
+.testimonials-title {
+    font-size: 34px ;
+    color: rgb(197,163,92);
+    text-align: center;
+}
+.testimonials__subtitle {
+    font-size: 19px ;
+    color: rgb(200, 200, 185);
+    text-align: center;
+}
 /* Rimma Vitkovska's end */
