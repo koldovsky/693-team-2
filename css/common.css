@@ -17,10 +17,10 @@
     --main-bg-color: #1B191A;
     --button-changed-color: #41332a;
 }
-body{
+/* body{
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
-}
+} */
 img {
     display: block;
     width: 10%;
