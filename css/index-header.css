@@ -1,0 +1,18 @@
+/* Rimma Vitkovska's start */
+.havana {
+    background-color: var(--main-bg-color) ;
+}
+.havana__h2 {
+    color: var(---main-gold-color);
+}
+.havana__h3 {
+
+}
+.havana__p {
+
+}
+.container a {
+    text-decoration: none;
+    color: black;
+}
+/* Rimma Vitkovska's end */
