@@ -53,7 +53,7 @@
 
 .good_cigars_quality{
     background-color: #313524;
-    color: var();
+    color: var(--);
 }
 
 .good_cigar_seed{
