@@ -12,8 +12,9 @@
 
     font-family: 'Roboto', sans-serif;
     --main-text-color: #D0C8B9;
+    --white-text-color: #FFFFFF;
     --main-gold-color: #C5A35C;
-    --main-bg-color: #212020;
+    --main-bg-color: #1B191A;
     --button-changed-color: #41332a;
 }
 img {
