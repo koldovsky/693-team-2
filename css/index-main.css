@@ -45,8 +45,15 @@
 }
 /*Pawlo Bryk end*/
 /* Kateryna Danylo Start*/
+.origin_h2, .good_cigars_h2 , .pricing_h2{
+    color: var(--main-gold-color);
+    font-size: 40px;
+    font-family: 'BenchNine', sans-serif;
+ }
+
 .good_cigars_quality{
     background-color: #313524;
+    color: var();
 }
 
 .good_cigar_seed{
