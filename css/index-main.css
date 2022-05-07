@@ -37,10 +37,9 @@
     padding:10px;
     border: 2px;
     border-radius: 10px;
-    margin-top: ;
     background-color: var(--main-gold-color);
 }
 .cooperation__info-button:hover{
-    background-color: var(--main-text-color)
+    background-color: var(--button-changed-color);
 }
 /*Pawlo Bryk end*/
