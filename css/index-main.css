@@ -45,33 +45,61 @@
 }
 /*Pawlo Bryk end*/
 /* Kateryna Danylo Start*/
-.origin_h2, .good_cigars_h2 , .pricing_h2{
-    color: var(--main-gold-color);
-    font-size: 40px;
-    font-family: 'BenchNine', sans-serif;
- }
+.good_cigars{
+    background-image: url("/img/good_cigars/bg_good_cigars.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.origin{
+    background-image: url("/img/good_cigars/bg_origin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pricing{
+    background-image: url("/img/good_cigars/Cigars.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .good_cigars_quality{
     background-color: #313524;
     opacity: 0.9;
-    color: var(--white-text-color);
-    font-size: 17px;
     display: flex;
+    justify-content: space-around;
 }
 
 .good_cigar_seed{
     background-color: #3F3229;
     opacity: 0.9;
-    color: var(--white-text-color);
-    font-size: 17px;
     display: flex;
-    font-family: 'Robotto', sans-serif;
+    justify-content: space-around;
     }
-.good_cigars_h3{
+.good_cigars_describe, .origin, .pricing_discribe{
+    text-align: center;
+}
+.origin_h2, .good_cigars_h2 , .pricing_h2{
+    color: var(--main-gold-color);
+    font-size: 40px;
+    font-family: 'BenchNine', sans-serif;
+     }
+.good_cigars_h3, .pricing_h3, .pricing_span_gold{
     color: var(--main-gold-color);
     font-size: 26px;
     font-family: 'BenchNine', sans-serif;
 }
-
+.good_cigars_h4, .origin_h4, .pricing_h4, .pricing_span_grey {
+    color: var(--main-text-color);
+    font-size: 19px;
+}
+.good_cigars_p, .origin_p, .pricing_p {
+    color: var(--white-text-color);
+    font-size: 17px;
+}
+.pricing_button{
+    background-color: var(--main-gold-color);
+    color: var(--white-text-color);
+    padding: 15px;
+    border: none;
+}
 
 /*Kateryna Danylo end */
