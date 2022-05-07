@@ -9,13 +9,18 @@
     font-size: 40px;
     font-family: 'BenchNine', sans-serif;
 }
-
+.cooperation__subtitle{
+    font-size: 19px;
+    color: var(--main-text-color);
+    font-family: 'Robotto', sans-serif;
+}
 .cooperation-bottom_whiteline{
     margin: auto;
-    width: 481px;
+    width: auto;
     height: 32px;
 }
 .cooperation__h3{
     font-size: 24px;
+    font-family: 'BenchNine', sans-serif;
 }
 /*Pawlo Bryk end*/
