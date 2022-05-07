@@ -1,2 +1,8 @@
 /*Pawlo Bryk start*/
+.cooperation__h2{
+    color: var(--main-gold-color);
+    text-align: center;
+    text-size-adjust: 40px;
+    font-family: 'BenchNine', sans-serif;
+}
 /*Pawlo Bryk end*/
