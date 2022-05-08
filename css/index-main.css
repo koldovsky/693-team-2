@@ -30,6 +30,9 @@
     font-family: 'Robotto', sans-serif;
     margin-bottom: 20px;
 }
+.cooperation__info-consulting{
+    background-image: url("img/cooperation/men-on-field.jpg") ;
+}
 .cooperation__info-button{
     text-decoration: none;
     color: white;
