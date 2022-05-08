@@ -27,7 +27,6 @@
     font-size: 24px;
     font-family: 'BenchNine', sans-serif;
     margin-top: 20px;
-
 }
 
 .cooperation_p {
@@ -39,9 +38,7 @@
 .cooperation__info-consulting {
     background-image: url("/img/cooperation/men-on-field.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;
-    
-    
+    background-repeat: no-repeat;    
 }
 
 .cooperation__info-tobacco {
@@ -55,8 +52,6 @@
     background-repeat: no-repeat;
 }
 .cooperation__info{
-    width: 625px;
-    height: 358px;
     margin: auto;
 }
 .cooperation__info-button {
