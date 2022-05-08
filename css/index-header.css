@@ -40,44 +40,58 @@
 /*Rimma Vitkovska's end*/
 
 /*Svitlana Vusatiuk start*/
-.founders_all_h2 {
+.our_founders_h2 {
     font-size: 40px;
     color: rgb(197,163,92);
     text-align: center;
 }
-.founders_all_p {
+.our_founders_subs_p {
     font-size: 19px;
     color: #d0c8b9;
     text-align: center;
 }
-.founder1_h3 {
+.john_bomstrom_h3 {
     font-size: 24;
     color: rgb(197,163,92);
     text-align: center;
 }
-.founder1_p {
+.john_bomstrom_subs_p {
     font-size: 17px;
     color: #fff;
     text-align: center;
 }
-.founder2_h3 {
+.jack_bomstrom_h3 {
     font-size: 24px;
     color: rgb(197,163,92);
     text-align: center; 
 }
-.founder2_p {
+.jack_bomstrom_subs_p {
     font-size: 17px;
     color: #fff;
     text-align: center;  
 }
-.founder3_h3 {
+.hugh_bomstrom_h3 {
     font-size: 24px;
     color: rgb(197,163,92);
     text-align: center;
 }
-.founder3_p {
+.hugh_bomstrom_subs_p {
     font-size: 17px;
     color: #fff;
     text-align: center;
 }
+/*Svitlana Vusatiuk end*/
+
+/*Svitlana Vusatiuk start*/
+.our_gallery_h2 {
+    font-size: 40px;
+    color: rgb(197,163,92);
+    text-align: center;
+}
+.our_gallery_subs_p {
+    font-size: 19px;
+    color: #d0c8b9;
+    text-align: center;
+}
+
 /*Svitlana Vusatiuk end*/
