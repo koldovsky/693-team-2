@@ -95,8 +95,10 @@
     background-attachment: fixed;
     background-position: 52% 87%;
 }
-.pricing_discribe, .container_pricing_list{
-    background:rgba(33, 32, 32, 0.92);
+
+.pricing_discribe,
+.container_pricing_list {
+    background: rgba(33, 32, 32, 0.92);
 }
 
 .good_cigars_quality {
@@ -154,18 +156,21 @@
     padding: 15px;
     border: none;
 }
-.img_white_line{
+
+.img_white_line {
     margin: 0 auto;
     height: 32px;
     width: auto;
 }
-.pricing_li{
+
+.pricing_li {
     display: flex;
     align-items: center;
 }
+
 /*Kateryna Danylo end */
 /*Vladyslav Volkov start*/
-.h2-years_quality{
+.h2-years_quality {
     font-family: 'BenchNine', sans-serif;
     color: var(--main-gold-color);
     text-align: center;
@@ -174,7 +179,7 @@
     padding-bottom: 15px;
 }
 
-.title-years_cigar{
+.title-years_cigar {
     font-family: 'Robotto', sans-serif;
     font-size: 19px;
     color: var(--main-text-color);
@@ -183,12 +188,12 @@
     width: 760px;
 }
 
-.mid-title_quality{
+.mid-title_quality {
     display: flex;
     justify-content: center;
 }
 
-.h3-content_quality{
+.h3-content_quality {
     font-family: 'BenchNine' sans-serif;
     font-size: 18px;
     color: var(--main-gold-color);
@@ -197,7 +202,7 @@
     text-align: left;
 }
 
-.title-mid_quality{
+.title-mid_quality {
     font-family: 'Robotto', sans-serif;
     font-size: 17px;
     color: var(--white-text-color);
@@ -207,34 +212,36 @@
     text-align: left;
 }
 
-.title-years_quality{
+.title-years_quality {
     background-color: #1b191a;
 }
 
-.img-whiteline_quality{
+.img-whiteline_quality {
     display: flex;
     justify-content: center;
 }
 
-.img-line_quality{
+.img-line_quality {
     height: 32px;
     width: 385px;
 }
 
 
-.img-cigars_quality{
+.img-cigars_quality {
     height: 239px;
     width: 346px;
 }
 
-.img-cigars_years{
+.img-cigars_years {
     padding: 50px 50px 50px 50px;
 }
-.content-title_quality{
-   box-sizing: border-box;
-   padding-left: 50px;
-   padding-bottom: 100px;
+
+.content-title_quality {
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-bottom: 100px;
 }
+
 /*Vladyslav Volkov end*/
 /* Denys Voitov start */
 
@@ -287,13 +294,15 @@
 
 .inform-button:hover {
     color: black;
-    background-color: white;}
+    background-color: white;
+}
 
-    /* Denys Voitov end */
+/* Denys Voitov end */
 /*Vynohradova Liubov start*/
 .partners {
     background-color: #1b191a;
 }
+
 .partners__h2 {
     font-family: 'BenchNine', sans-serif;
     font-size: 34px;
@@ -307,34 +316,17 @@
     width: auto;
     height: 32px;
 }
+
 .partners__subheader {
     color: #d0c8b9;
     text-align: center;
 }
+
 /*Vynohradova Liubov end*/
 
-/*Our founders start*/
+/*Svitlana Vusatiuk start*/
 .img_line {
     position: absolute;
 }
-.our_founders_subs
-.john_bomstrom_info
-.john_bomstrom_subs
-.jack_bomstrom_info
-.jack_bomstrom_subs
-.hugh_bomstrom_info
-.hugh_bomstrom_subs
-.social_services {
-    position: absolute;
-}
-/*Our founders end*/
 
-/*Our Gallery start*/
-.our_gallery_subs {
-    position: absolute;
-}
-
-.gallery_gallery_info {
-    position: absolute;
-}
-/*Our Gallery end*/
+/*Svitlana Vusatiuk end*/

@@ -46,7 +46,7 @@
 
 /*Rimma Vitkovska's end*/
 
-/*Our founders start*/
+/*Svitlana Vusatiuk start*/
 .our_fonders_h2 {
     font-size: 34px;
     color: #c5a35c;
@@ -58,6 +58,7 @@
     font-size: 19px;
     color: #d0c8b9;
     text-align: center;
+    position: relative;
     font-family: Roboto, sans-serif;
 }
 
@@ -103,9 +104,6 @@
     font-family: Roboto, sans-serif;
 }
 
-/*Our founders end*/
-
-/*Our gallery start*/
 .our_gallery_h2 {
     font-size: 34px;
     color: #c5a35c;
@@ -120,4 +118,4 @@
     font-family: Roboto, sans-serif;
 }
 
-/*Our gallery end*/
+/*Svutlana Vusatiuk end*/
