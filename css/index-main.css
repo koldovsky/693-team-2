@@ -211,16 +211,14 @@
 .inform-button:hover {
     color: black;
     background-color: white;
-
+}
 
     /* Denys Voitov end */
 
 /* Svitlana Vusatiuk start */
 .img_line {
 width: auto;
-position: center;
 margin: auto;
 height: 32px;
-
 }
 /* Svitlana Vusatiuk end */
