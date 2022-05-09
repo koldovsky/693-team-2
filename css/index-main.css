@@ -75,19 +75,19 @@
 /*Pawlo Bryk end*/
 /* Kateryna Danylo Start*/
 .good_cigars {
-    background-image: url("/img/good_cigars/bg_good_cigars.png");
+    background-image: url("../img/good_cigars/bg_good_cigars.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .origin {
-    background-image: url("/img/good_cigars/bg_origin.png");
+    background-image: url("../img/good_cigars/bg_origin.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .pricing {
-    background-image: url("/img/good_cigars/cigars.jpg");
+    background-image: url("../img/good_cigars/cigars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
