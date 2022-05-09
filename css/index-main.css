@@ -159,6 +159,78 @@
     align-items: center;
 }
 /*Kateryna Danylo end */
+/*Vladyslav Volkov start*/
+.h2-years_quality{
+    font-family: 'BenchNine', sans-serif;
+    color: var(--main-gold-color);
+    text-align: center;
+    font-size: 34px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.title-years_cigar{
+    font-family: 'Robotto', sans-serif;
+    font-size: 19px;
+    color: var(--main-text-color);
+    text-align: center;
+    padding-top: 15px;
+    width: 760px;
+}
+
+.mid-title_quality{
+    display: flex;
+    justify-content: center;
+}
+
+.h3-content_quality{
+    font-family: 'BenchNine' sans-serif;
+    font-size: 18px;
+    color: var(--main-gold-color);
+    padding-top: 20px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+.title-mid_quality{
+    font-family: 'Robotto', sans-serif;
+    font-size: 17px;
+    color: var(--white-text-color);
+    width: 800px;
+    padding-top: 10px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.title-years_quality{
+    background-color: #1b191a;
+}
+
+.img-whiteline_quality{
+    display: flex;
+    justify-content: center;
+}
+
+.img-line_quality{
+    height: 32px;
+    width: 385px;
+}
+
+
+.img-cigars_quality{
+    height: 239px;
+    width: 346px;
+}
+
+.img-cigars_years{
+    padding: 50px 50px 50px 50px;
+}
+.content-title_quality{
+   box-sizing: border-box;
+   padding-left: 50px;
+   padding-bottom: 100px;
+}
+/*Vladyslav Volkov end*/
 /* Denys Voitov start */
 
 .history {
@@ -212,16 +284,4 @@
     color: black;
     background-color: white;
 
-
     /* Denys Voitov end */
-
-/* Svitlana Vusatiuk start */
-.img_line {
-width: auto;
-position: absolute;
-margin: auto;
-
-}
-
-/* Svitlana Vusatiuk end */
-
