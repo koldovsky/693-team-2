@@ -1,52 +1,69 @@
 /*Rimma Vitkovska's start*/
+.havana {
+    background-color: #1b191a;   
+}
 .havana__h2 {
+    font-family: 'BenchNine', sans-serif;
     font-size: 34px;
     color: rgb(197, 163, 92);
     text-align: center;
 }
-
 .havana__h3 {
+    font-family: 'Robotto', sans-serif;
     font-size: 19px;
     color: rgb(197, 163, 92);
     text-align: center;
 }
-
 .havana__p {
+    font-family: ''Robotto', sans-serif;
     font-size: 17px;
-    color: black;
+    color: white;
     text-align: center;
 }
 
 .container a {
+    text-align: center;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+   
 }
-
 .header__top-navigation-links a {
     text-decoration: none;
     color: black;
+    text-align: center;
 }
-
-.header__banner a {
+.navigation-banner-links a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 16px;
+    font-family: 'BenchNine', sans-serif;
+    padding: 10px;
+    background-color: var(--main-gold-color);
+    text-align: center; 
+} 
+.testimonials {
+    background-color: #1b191a;
 }
-
 .testimonials-title {
+    font-family: 'BenchNine', sans-serif;
     font-size: 34px;
     color: rgb(197, 163, 92);
     text-align: center;
 }
-
 .testimonials__subtitle {
+    font-family: 'Robotto', sans-serif;
     font-size: 19px;
     color: rgb(200, 200, 185);
     text-align: center;
 }
-
 /*Rimma Vitkovska's end*/
 
+<<<<<<< HEAD
 /*Svitlana Vusatiuk start*/
+=======
+
+/*Our founders start*/
+>>>>>>> 1b5f1b01ba02fa47e2093cb7bc1b1535d3eacdcd
 .our_fonders_h2 {
     font-size: 34px;
     color: #c5a35c;
@@ -118,4 +135,42 @@
     font-family: Roboto, sans-serif;
 }
 
+<<<<<<< HEAD
 /*Svutlana Vusatiuk end*/
+=======
+/*Our gallery end*/
+
+/* Navigations start */
+.header__top {
+    background-image: url(../img/logo/image_background_1.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 900px;
+    
+    }
+    .header__banner {
+       background-image: url(../img/logo/bg-cigars.png);
+       background-repeat: no-repeat;
+       background-size: contain;
+       min-height: 750px;
+        background-position: center;
+        padding-top: 700px;
+        
+    }
+
+    .header__top-navigation-logo {
+        width: 132%;
+        height: auto;
+        position: center;
+       padding-top: 30px;
+        padding-left: 90px;
+    }
+
+    .header__top-navigation-links {
+       position: absolute; 
+       top: 45px;
+       left: 600px;
+    }
+    /* Navigations end */
+    
+>>>>>>> 1b5f1b01ba02fa47e2093cb7bc1b1535d3eacdcd
