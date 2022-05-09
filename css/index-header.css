@@ -1,3 +1,64 @@
+/*Rimma Vitkovska's start*/
+.havana {
+    background-color: #1b191a;   
+}
+.havana__h2 {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 34px;
+    color: rgb(197, 163, 92);
+    text-align: center;
+}
+.havana__h3 {
+    font-family: 'Robotto', sans-serif;
+    font-size: 19px;
+    color: rgb(197, 163, 92);
+    text-align: center;
+}
+.havana__p {
+    font-family: ''Robotto', sans-serif;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+
+.container a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+}
+.header__top-navigation-links a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.navigation-banner-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'BenchNine', sans-serif;
+    padding: 10px;
+    background-color: var(--main-gold-color);
+    text-align: center; 
+} 
+.testimonials {
+    background-color: #1b191a;
+}
+.testimonials-title {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 34px;
+    color: rgb(197, 163, 92);
+    text-align: center;
+}
+.testimonials__subtitle {
+    font-family: 'Robotto', sans-serif;
+    font-size: 19px;
+    color: rgb(200, 200, 185);
+    text-align: center;
+}
+/*Rimma Vitkovska's end*/
+
+
 /*Our founders start*/
 .our_fonders_h2 {
     font-size: 34px;
