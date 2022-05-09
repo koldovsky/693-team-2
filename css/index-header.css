@@ -121,3 +121,37 @@
 }
 
 /*Our gallery end*/
+
+/* Navigations start */
+.header__top {
+    background-image: url(../img/logo/image_background_1.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 900px;
+    
+    }
+    .header__banner {
+       background-image: url(../img/logo/bg-cigars.png);
+       background-repeat: no-repeat;
+       background-size: contain;
+       min-height: 750px;
+        background-position: center;
+        padding-top: 700px;
+        
+    }
+
+    .header__top-navigation-logo {
+        width: 132%;
+        height: auto;
+        position: center;
+       padding-top: 30px;
+        padding-left: 90px;
+    }
+
+    .header__top-navigation-links {
+       position: absolute; 
+       top: 45px;
+       left: 600px;
+    }
+    /* Navigations end */
+    
