@@ -154,7 +154,10 @@
     height: 32px;
     width: auto;
 }
-
+.pricing_li{
+    display: flex;
+    align-items: center;
+}
 /*Kateryna Danylo end */
 /* Denys Voitov start */
 
