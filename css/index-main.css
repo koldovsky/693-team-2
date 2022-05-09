@@ -38,7 +38,7 @@
 .cooperation__info-consulting {
     background-image: url("/img/cooperation/men-on-field.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 }
 
 .cooperation__info-tobacco {
@@ -46,14 +46,17 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.cooperation__info-cigars{
+
+.cooperation__info-cigars {
     background-image: url(/img/cooperation/cigars-in-bamboo.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.cooperation__info{
+
+.cooperation__info {
     margin: auto;
 }
+
 .cooperation__info-button {
     text-decoration: none;
     color: white;
@@ -148,5 +151,50 @@
 }
 
 /*Kateryna Danylo end */
+/* Denys Voitov start */
+
+.history {
+    background-color: #1b191a;
+}
+
+.history__h2 {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 34px;
+    color: rgb(197, 163, 92);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Line {
+    margin: auto;
+    width: auto;
+    height: 32px;   
+}
 
 
+.history__subheader {
+    color: #d0c8b9;
+    text-align: center;
+
+}
+
+.dates__description {
+    color: #fff;
+    font-family: 'Robotto', sans-serif;
+}
+
+.dates__h3 {
+    color: #c5a35c;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 22px;
+}
+
+.link button {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+/* Denys Voitov end */
