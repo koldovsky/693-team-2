@@ -15,7 +15,7 @@
     text-align: center;
 }
 .havana__p {
-    font-family: ''Robotto', sans-serif;
+    font-family: 'Robotto', sans-serif;
     font-size: 17px;
     color: white;
     text-align: center;
@@ -56,14 +56,39 @@
     color: rgb(200, 200, 185);
     text-align: center;
 }
+.header__top {
+    background-image: url(../img/logo/image_background_1.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 900px;
+    
+    }
+    .header__banner {
+       background-image: url(../img/logo/bg-cigars.png);
+       background-repeat: no-repeat;
+       background-size: contain;
+       min-height: 750px;
+        background-position: center;
+        padding-top: 700px;
+        
+    }
+
+    .header__top-navigation-logo {
+        width: 132%;
+        height: auto;
+        position: center;
+       padding-top: 30px;
+        padding-left: 90px;
+    }
+
+    .header__top-navigation-links {
+       position: absolute; 
+       top: 45px;
+       left: 600px;
+    }
 /*Rimma Vitkovska's end*/
 
-<<<<<<< HEAD
 /*Svitlana Vusatiuk start*/
-=======
-
-/*Our founders start*/
->>>>>>> 1b5f1b01ba02fa47e2093cb7bc1b1535d3eacdcd
 .our_fonders_h2 {
     font-size: 34px;
     color: #c5a35c;
@@ -134,43 +159,5 @@
     text-align: center;
     font-family: Roboto, sans-serif;
 }
-
-<<<<<<< HEAD
-/*Svutlana Vusatiuk end*/
-=======
-/*Our gallery end*/
-
-/* Navigations start */
-.header__top {
-    background-image: url(../img/logo/image_background_1.png);
-    background-size: cover;
-    background-position: center;
-    min-height: 900px;
+    /*Svitlana Vusatiuk end */
     
-    }
-    .header__banner {
-       background-image: url(../img/logo/bg-cigars.png);
-       background-repeat: no-repeat;
-       background-size: contain;
-       min-height: 750px;
-        background-position: center;
-        padding-top: 700px;
-        
-    }
-
-    .header__top-navigation-logo {
-        width: 132%;
-        height: auto;
-        position: center;
-       padding-top: 30px;
-        padding-left: 90px;
-    }
-
-    .header__top-navigation-links {
-       position: absolute; 
-       top: 45px;
-       left: 600px;
-    }
-    /* Navigations end */
-    
->>>>>>> 1b5f1b01ba02fa47e2093cb7bc1b1535d3eacdcd
