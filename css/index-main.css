@@ -218,9 +218,9 @@
 /* Svitlana Vusatiuk start */
 .img_line {
 width: auto;
-position: center;
+position: absolute;
 margin: auto;
-height: 32px;
 
 }
+
 /* Svitlana Vusatiuk end */
