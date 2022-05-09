@@ -282,20 +282,21 @@
 }
 
 .inform-button {
-    text-decoration: var(--white-text-color));
+    text-decoration: none;
     color: var(--white-text-color);
     font-size: 16px;
     font-family: 'BenchNine', sans-serif;
     border: 2px solid white;
     background-color: var(--main-bg-color);
     padding: 15px 32px;
-    position: absolute;
+    
 }
 
 .inform-button:hover {
-    color: var (--main-bg-color);
-    background-color: var (--white-text-color);
+    color: var(--main-bg-color);
+    background-color: var(--white-text-color);
 }
+
 
 /* Denys Voitov end */
 /*Vynohradova Liubov start*/
