@@ -312,6 +312,7 @@
     text-align: center;
 }
 /*Vynohradova Liubov end*/
+<<<<<<< HEAD
 /*Rimma Vitkovska's start*/
 .havana {
     background-color: #1b191a;   
@@ -370,3 +371,31 @@
     text-align: center;
 }
 /*Rimma Vitkovska's end*/
+=======
+
+/*Our founders start*/
+.img_line {
+    position: absolute;
+}
+.our_founders_subs
+.john_bomstrom_info
+.john_bomstrom_subs
+.jack_bomstrom_info
+.jack_bomstrom_subs
+.hugh_bomstrom_info
+.hugh_bomstrom_subs
+.social_services {
+    position: absolute;
+}
+/*Our founders end*/
+
+/*Our Gallery start*/
+.our_gallery_subs {
+    position: absolute;
+}
+
+.gallery_gallery_info {
+    position: absolute;
+}
+/*Our Gallery end*/
+>>>>>>> 0c95792339fe649ffbc1e0f9d65e60edc2318aa2
