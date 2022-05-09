@@ -209,7 +209,11 @@
 /* Denys Voitov end */
 
 /* Svitlana Vusatiuk start */
-.line {
-    
+.img_line {
+width: auto;
+position: center;
+margin: auto;
+height: 32px;
+
 }
 /* Svitlana Vusatiuk end */
