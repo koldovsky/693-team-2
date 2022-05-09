@@ -84,12 +84,14 @@
     background-image: url("../img/good_cigars/bg_origin.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .pricing {
     background-image: url("../img/good_cigars/cigars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .good_cigars_quality {
