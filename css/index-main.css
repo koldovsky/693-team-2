@@ -246,13 +246,13 @@
 /* Denys Voitov start */
 
 .history {
-    background-color: #1b191a;
+    background-color: var(--main-bg-color);
 }
 
 .history__h2 {
     font-family: 'BenchNine', sans-serif;
     font-size: 34px;
-    color: rgb(197, 163, 92);
+    color: var(--main-gold-color);
     text-align: center;
     padding-top: 30px;
 }
@@ -265,36 +265,36 @@
 
 
 .history__subheader {
-    color: #d0c8b9;
+    color: var(--main-text-color);
     text-align: center;
 
 }
 
 .dates__description {
-    color: #fff;
+    color: var(--white-text-color);
     font-family: 'Robotto', sans-serif;
 }
 
 .dates__h3 {
-    color: #c5a35c;
+    color: var(--main-gold-color);
     font-family: 'BenchNine', sans-serif;
     font-size: 22px;
 }
 
 .inform-button {
-    text-decoration: white;
-    color: white;
+    text-decoration: var(--white-text-color));
+    color: var(--white-text-color);
     font-size: 16px;
     font-family: 'BenchNine', sans-serif;
     border: 2px solid white;
-    background-color: black;
+    background-color: var(--main-bg-color);
     padding: 15px 32px;
     position: absolute;
 }
 
 .inform-button:hover {
-    color: black;
-    background-color: white;
+    color: var (--main-bg-color);
+    background-color: var (--white-text-color);
 }
 
 /* Denys Voitov end */
