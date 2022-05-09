@@ -289,4 +289,17 @@
 .partners {
     background-color: #1b191a;
 }
+.partners__h2 {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 34px;
+    color: rgb(197, 163, 92);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Line {
+    margin: auto;
+    width: auto;
+    height: 32px;
+}
 /*Vynohradova Liubov end*/
