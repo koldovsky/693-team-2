@@ -1,101 +1,149 @@
 /*Pawlo Bryk start*/
-.cooperation-bottom{
+.cooperation-bottom {
     text-align: center;
     background-color: var(--main-bg-color);
     color: white;
 }
-.cooperation__h2{
+
+.cooperation__h2 {
     color: var(--main-gold-color);
     font-size: 40px;
     font-family: 'BenchNine', sans-serif;
 }
-.cooperation__subtitle{
+
+.cooperation__subtitle {
     font-size: 19px;
     color: var(--main-text-color);
     font-family: 'Robotto', sans-serif;
 }
-.cooperation-bottom_whiteline{
+
+.cooperation-bottom_whiteline {
     margin: auto;
     width: auto;
     height: 32px;
 }
-.cooperation__h3{
+
+.cooperation__h3 {
     font-size: 24px;
     font-family: 'BenchNine', sans-serif;
     margin-top: 20px;
-
 }
-.cooperation_p{
+
+.cooperation_p {
     font-size: 17px;
     font-family: 'Robotto', sans-serif;
     margin-bottom: 20px;
 }
-.cooperation__info-button{
+
+.cooperation__info-consulting {
+    background-image: url("/img/cooperation/men-on-field.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cooperation__info-tobacco {
+    background-image: url("/img/cooperation/woman-with-cigar.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cooperation__info-cigars {
+    background-image: url(/img/cooperation/cigars-in-bamboo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cooperation__info {
+    margin: auto;
+}
+
+.cooperation__info-button {
     text-decoration: none;
     color: white;
     font-size: 16px;
     font-family: 'BenchNine', sans-serif;
-    padding:10px;
+    padding: 10px;
     border: 2px;
     border-radius: 10px;
     background-color: var(--main-gold-color);
 }
-.cooperation__info-button:hover{
+
+.cooperation__info-button:hover {
     background-color: var(--button-changed-color);
 }
+
 /*Pawlo Bryk end*/
 /* Kateryna Danylo Start*/
-.good_cigars{
+.good_cigars {
     background-image: url("/img/good_cigars/bg_good_cigars.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.origin{
+
+.origin {
     background-image: url("/img/good_cigars/bg_origin.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.pricing{
+
+.pricing {
     background-image: url("/img/good_cigars/Cigars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.good_cigars_quality{
+.good_cigars_quality {
     background-color: #313524;
     opacity: 0.9;
     display: flex;
     justify-content: space-around;
 }
 
-.good_cigar_seed{
+.good_cigar_seed {
     background-color: #3F3229;
     opacity: 0.9;
     display: flex;
     justify-content: space-around;
-    }
-.good_cigars_describe, .origin, .pricing_discribe{
+}
+
+.good_cigars_describe,
+.origin,
+.pricing_discribe {
     text-align: center;
 }
-.origin_h2, .good_cigars_h2 , .pricing_h2{
+
+.origin_h2,
+.good_cigars_h2,
+.pricing_h2 {
     color: var(--main-gold-color);
     font-size: 40px;
     font-family: 'BenchNine', sans-serif;
-     }
-.good_cigars_h3, .pricing_h3, .pricing_span_gold{
+}
+
+.good_cigars_h3,
+.pricing_h3,
+.pricing_span_gold {
     color: var(--main-gold-color);
     font-size: 26px;
     font-family: 'BenchNine', sans-serif;
 }
-.good_cigars_h4, .origin_h4, .pricing_h4, .pricing_span_grey {
+
+.good_cigars_h4,
+.origin_h4,
+.pricing_h4,
+.pricing_span_grey {
     color: var(--main-text-color);
     font-size: 19px;
 }
-.good_cigars_p, .origin_p, .pricing_p {
+
+.good_cigars_p,
+.origin_p,
+.pricing_p {
     color: var(--white-text-color);
     font-size: 17px;
 }
-.pricing_button{
+
+.pricing_button {
     background-color: var(--main-gold-color);
     color: var(--white-text-color);
     padding: 15px;
@@ -108,3 +156,51 @@
 }
 
 /*Kateryna Danylo end */
+/* Denys Voitov start */
+
+.history {
+    background-color: #1b191a;
+}
+
+.history__h2 {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 34px;
+    color: rgb(197, 163, 92);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Line {
+    margin: auto;
+    width: auto;
+    height: 32px;   
+}
+
+
+.history__subheader {
+    color: #d0c8b9;
+    text-align: center;
+
+}
+
+.dates__description {
+    color: #fff;
+    font-family: 'Robotto', sans-serif;
+}
+
+.dates__h3 {
+    color: #c5a35c;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 22px;
+}
+
+.link button {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  
+
+/* Denys Voitov end */
