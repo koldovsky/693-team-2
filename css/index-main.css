@@ -351,12 +351,11 @@
 
 
 /*Svitlana Vusatiuk start*/
-.img_line {
-    position: absolute;
+.line {
     margin: auto;
     width: auto;
     height: 32px;
-    width: 448.667px;
+    
 }
 .our_founders_subs {
     margin: auto;
