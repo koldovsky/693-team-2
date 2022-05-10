@@ -259,7 +259,7 @@
 }
 
 .Line {
-    margin: auto;
+    margin-top: 25px;
     width: auto;
     height: 32px;
 }
@@ -274,22 +274,22 @@
 .history__subheader {
     color: var(--main-text-color);
     text-align: center;
+    box-sizing:border-box;
+    margin-top: 20px;
+    position: relative;
+    font-weight:400px;
+    font-size: 19px;
 
 }
-
-@media (min-width:560px) {
-    .history__dates {
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 15px;
-    }
+.history__dates {
+    display: flex;
+    align-items:flex-start;
+    gap: 15px;
+    justify-content:center;
+    width: auto;
+    height: auto;
+    margin-top: 45px;
 }
-
-@media (min-width:860px) {
-    .history__dates {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 15px;
-    }
 
 .dates__h3 {
         color: var(--main-gold-color);
