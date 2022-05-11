@@ -491,9 +491,11 @@ font-size: 19px;
     background-attachment: fixed;
     background-position: 52% 87%;
     color: var(--main-gold-color);
+    font-weight: bold;
 }
 .subpartners {
-    color: white
+    color: white;
+    font-weight: bold;
 }
 
 /*Vynohradova Liubov end*/
