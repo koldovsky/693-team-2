@@ -203,36 +203,14 @@ font-size: 19px;
     text-align: center;
 }
 
-.origin_h2,
-.good_cigars_h2,
-.pricing_h2 {
-    color: var(--main-gold-color);
-    font-size: 40px;
-    font-family: 'BenchNine', sans-serif;
-}
 
-.good_cigars_h3,
-.pricing_h3,
-.pricing_span_gold {
-    color: var(--main-gold-color);
-    font-size: 26px;
-    font-family: 'BenchNine', sans-serif;
-}
 
-.good_cigars_h4,
-.origin_h4,
-.pricing_h4,
+
 .pricing_span_grey {
     color: var(--main-text-color);
     font-size: 19px;
 }
 
-.good_cigars_p,
-.origin_p,
-.pricing_p {
-    color: var(--white-text-color);
-    font-size: 17px;
-}
 
 .img_white_line {
     margin: 0 auto;
@@ -243,11 +221,11 @@ font-size: 19px;
 .container_pricing_li{
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .pricing_li {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     border: 1px solid black;
@@ -292,7 +270,6 @@ font-size: 19px;
     font-family: 'Robotto', sans-serif;
     font-size: 17px;
     color: var(--white-text-color);
-    width: 800px;
     padding-top: 10px;
     padding-right: 100px;
     text-align: left;
