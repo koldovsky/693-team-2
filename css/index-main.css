@@ -484,13 +484,18 @@ font-size: 19px;
     background-attachment: fixed;
     background-position: 52% 87%;
 }
-.partners_number-h2 {
+.partners__number-h2 {
     background-image: url(".../img/good_cigars/bg_origin.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: 52% 87%;
     color: var(--main-gold-color);
+    font-weight: bold;
+}
+.subpartners {
+    color: white;
+    font-weight: bold;
 }
 
 /*Vynohradova Liubov end*/
