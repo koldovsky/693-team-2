@@ -480,13 +480,7 @@ font-size: 19px;
 .partners_partners-logo {
     width: 300px;
     align-items: center; 
-    background-image: url(".../img/good_cigars/bg_origin.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 52% 87%;
-    min-height: 500px;
-    margin: auto;
+   background-color: #1b191a;
 }
 .partners__number-h2 {
     background-image: url(".../img/good_cigars/bg_origin.png");
