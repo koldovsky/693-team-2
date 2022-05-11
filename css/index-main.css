@@ -526,107 +526,83 @@ font-size: 19px;
 /*Rimma Vitkovska's start*/
 .havana {
     background-color: var(--main-bg-color);
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif;
+    padding-top: 90px;
+    padding-bottom: 40px;
 }
-
 .location__image {
-    width: 45%;
-    height: 45%;
-    top: 0;
-    left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 32px;
+    display: flex;
+    margin: 10px 10px; 
 }
-
 .havana__h2 {
     font-family: 'BenchNine', sans-serif;
-    font-size: 34px;
+    font-size: 40px;
     color: var(--main-gold-color);
     text-align: center;
+    margin: 20px;
 }
-
-.havana__h3 {
+. cooperation-bottom_whiteline {
+    margin: 20px;
+}
+.havana__h4 {
     font-family: 'Robotto', sans-serif;
     font-size: 19px;
     color: var(--main-gold-color);
     text-align: center;
+    margin: 20px;
 }
-
 .havana__p {
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
     font-family: 'Robotto', sans-serif;
     font-size: 17px;
     color: var(--white-text-color);
     text-align: center;
+    margin: 20px;
 }
-
 .container a {
-    align-items: center;
-    color: rgb(208, 200, 185)
+    justify-content: flex-start;
+    color: rgb(208, 200, 185);
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
 }
-
-.navigation-banner-links a {
+.navigation-banner-links {
+    padding: 14px 20px;
+    justify-content: space-around;
     text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-family: 'BenchNine', sans-serif;
-    padding: 10px;
-    background-color: var(--main-gold-color);
+    display: inline-block;
+    margin-top: 10px;
     text-align: center;
+} 
+.banner_contact {
+    padding: 14px 20px;
+    margin: 5px;
 }
-
-.header-banner-link button  {
-    background-color: var(--button-changed-color);
+.banner_learnmore {
+    padding: 14px 20px;
+    margin: 5px;  
 }
-
-header-banner-link button :hover {
-    background-color: var(--button-changed-black);
-}
-
 .testimonials {
     background-color: #1b191a;
 }
-
 .testimonials-title {
     font-family: 'BenchNine', sans-serif;
     font-size: 34px;
     color: rgb(197, 163, 92);
     text-align: center;
 }
-
 .testimonials__subtitle {
     font-family: 'Robotto', sans-serif;
     font-size: 19px;
     color: rgb(200, 200, 185);
     text-align: center;
 }
-
-.header__top {
-    background-image: url(../img/logo/image_background_1.png);
-    background-size: cover;
-    background-position: center;
-    min-height: 900px;
-
-}
-
-.header__banner {
-    background-image: url(../img/logo/bg-cigars.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 750px;
-    background-position: center;
-    padding-top: 700px;
-
-}
-
-.header__top-navigation-logo {
-    width: 132%;
-    height: auto;
-    position: center;
-    padding-top: 30px;
-    padding-left: 90px;
-}
-
-.header__top-navigation-links {
-    position: absolute;
-    top: 45px;
-    left: 600px;
-}
-
 /*Rimma Vitkovska's end*/
