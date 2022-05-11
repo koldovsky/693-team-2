@@ -173,7 +173,7 @@ font-size: 19px;
 }
 
 .pricing {
-    background-image: url("../img/good_cigars/cigars.jpg");
+    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.9) ), url("../img/good_cigars/cigars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -181,7 +181,7 @@ font-size: 19px;
 }
 
 .container_pricing {
-     background: rgba(33, 32, 32, 0.92);
+     /* background: rgba(33, 32, 32, 0.92); */
      padding: 30px;
 }
 
@@ -235,12 +235,7 @@ font-size: 19px;
 }
 
 .pricing_button {
-    background-color: var(--main-gold-color);
-    color: var(--white-text-color);
-    font-size: 16px;
     padding: 15px 25px;
-    border: none;
-    font-family: 'BenchNine', sans-serif;
 }
 .pricing_button:hover {
     background-color: var(--button-changed-color);
