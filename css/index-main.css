@@ -126,14 +126,14 @@ font-size: 19px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    align-items: stretch;
 }
 .cooperation__info-consulting{
     background-image: url("../img/cooperation/men-on-field.jpg");
 }
 .cooperation__info-tobacco{
     background-image: url("../img/cooperation/woman-with-cigar.jpg");
-    background-position: center;
+    background-position: 50% 10% ;
 }
 .cooperation__info-cigars{
     background-image: url("../img/cooperation/cigars-in-bamboo.jpg");
@@ -168,6 +168,8 @@ font-size: 19px;
     background-size: cover;
     background-attachment: fixed;
     background-position: 52% 87%;
+    min-height: 500px;
+    margin: auto;
 }
 
 .pricing {
@@ -178,9 +180,9 @@ font-size: 19px;
     background-position: 52% 87%;
 }
 
-.pricing_discribe,
-.container_pricing_list {
-    background: rgba(33, 32, 32, 0.92);
+.container_pricing {
+     background: rgba(33, 32, 32, 0.92);
+     padding: 30px;
 }
 
 .good_cigars_quality {
@@ -235,8 +237,13 @@ font-size: 19px;
 .pricing_button {
     background-color: var(--main-gold-color);
     color: var(--white-text-color);
-    padding: 15px;
+    font-size: 16px;
+    padding: 15px 25px;
     border: none;
+    font-family: 'BenchNine', sans-serif;
+}
+.pricing_button:hover {
+    background-color: var(--button-changed-color);
 }
 
 .img_white_line {
@@ -248,7 +255,11 @@ font-size: 19px;
 
 .pricing_li {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
+    padding: 45px;
 }
 
 /*Kateryna Danylo end */
@@ -466,7 +477,25 @@ font-size: 19px;
 }
 .partners_partners-logo {
     width: 300px;
-    align-items: center;
+    align-items: center; 
+    background-image: url(".../img/good_cigars/bg_origin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 52% 87%;
+}
+.partners__number-h2 {
+    background-image: url(".../img/good_cigars/bg_origin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 52% 87%;
+    color: var(--main-gold-color);
+    font-weight: bold;
+}
+.subpartners {
+    color: white;
+    font-weight: bold;
 }
 
 /*Vynohradova Liubov end*/

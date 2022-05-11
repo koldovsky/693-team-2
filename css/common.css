@@ -3,11 +3,9 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-*{
     box-sizing: border-box;
 }
+
 :root{
 
     font-family: 'Robotto', sans-serif;
@@ -17,10 +15,9 @@
     --main-bg-color: #1B191A;
     --button-changed-color: #41332a;
 }
-/* body{
+body{
     background-color: var(--main-bg-color);
-    color: var(--main-text-color);
-} */
+}
 
 img {
     display: block;
