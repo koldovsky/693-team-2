@@ -235,12 +235,7 @@ font-size: 19px;
 }
 
 .pricing_button {
-    background-color: var(--main-gold-color);
-    color: var(--white-text-color);
-    font-size: 16px;
     padding: 15px 25px;
-    border: none;
-    font-family: 'BenchNine', sans-serif;
 }
 .pricing_button:hover {
     background-color: var(--button-changed-color);
@@ -507,7 +502,6 @@ font-size: 19px;
     margin: auto;
     width: auto;
     height: 32px;
-
 }
 
 .our_founders_subs {
@@ -520,6 +514,12 @@ font-size: 19px;
     margin: auto;
     width: auto;
     text-align: center;
+}
+.our_founders
+.gallery {
+    background-image: url("../img/good_cigars/bg_good_cigars.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*Svitlana Vusatiuk end*/
 
