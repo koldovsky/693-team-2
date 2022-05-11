@@ -516,19 +516,22 @@ font-size: 19px;
 }
 
 .john_bomstrom_subs
-.social_services_john {
+.social_services_john
+.john_bomstrom_info {
     margin: auto;
     width: auto;
     text-align: center;
 }
 .jack_bomstrom_subs
-.social_services_jack {
+.social_services_jack
+.jack_bomstrom_info {
     margin: auto;
     width: auto;
     text-align: center;
 }
 .hugh_bomstrom_subs
-.social_services_hugh {
+.social_services_hugh
+.hugh_bomstrom_info {
     margin: auto;
     width: auto;
     text-align: center;
