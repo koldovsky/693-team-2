@@ -237,8 +237,9 @@ font-size: 19px;
 .pricing_button {
     background-color: var(--main-gold-color);
     color: var(--white-text-color);
-    padding: 15px;
+    padding: 15px 25px;
     border: none;
+    font-family: 'BenchNine', sans-serif;
 }
 
 .img_white_line {
