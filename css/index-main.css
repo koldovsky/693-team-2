@@ -515,26 +515,25 @@ font-size: 19px;
     text-align: center;
 }
 
-.john_bomstrom_subs {
+.john_bomstrom_subs
+.social_services_john {
     margin: auto;
     width: auto;
     text-align: center;
 }
-.jack_bomstrom_subs {
+.jack_bomstrom_subs
+.social_services_jack {
     margin: auto;
     width: auto;
     text-align: center;
 }
-.hugh_bomstrom_subs {
+.hugh_bomstrom_subs
+.social_services_hugh {
     margin: auto;
     width: auto;
     text-align: center;
 }
-.social_services {
-    margin: auto;
-    width: auto;
-    text-align: center;
-}
+
 .our_gallery_subs {
     margin: auto;
     width: auto;
