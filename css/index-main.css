@@ -180,9 +180,9 @@ font-size: 19px;
     background-position: 52% 87%;
 }
 
-.pricing_discribe,
-.container_pricing_list {
-    background: rgba(33, 32, 32, 0.92);
+.container_pricing {
+     background: rgba(33, 32, 32, 0.92);
+     padding: 30px;
 }
 
 .good_cigars_quality {
