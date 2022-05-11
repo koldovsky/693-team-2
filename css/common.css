@@ -44,7 +44,7 @@ p{
     font-size: 17px;
 }
 
-.btn_dark{
+.btn_light{
     background-color: var(--main-gold-color);
     color: var(--white-text-color);
     font-size: 16px;
