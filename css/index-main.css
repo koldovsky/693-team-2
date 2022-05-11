@@ -442,10 +442,11 @@ font-size: 19px;
     padding-top: 30px;
 }
 
-.Line {
+.line_under {
     margin: auto;
     width: auto;
     height: 32px;
+    background-color: #1b191a;
 }
 
 .partners__subheader {
