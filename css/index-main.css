@@ -482,6 +482,15 @@ font-size: 19px;
     align-items: center; 
    background-color: #1b191a;
 }
+
+.partners_information {
+    background-image: url(".../img/partners/background_partners.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 52% 87%;
+    }
+    
 .partners__number-h2 {
     background-image: url(".../img/good_cigars/bg_origin.png");
     background-repeat: no-repeat;
