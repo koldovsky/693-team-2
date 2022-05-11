@@ -206,24 +206,14 @@
     justify-content: space-around;
 }
 
-.good_cigars_describe,
-.origin,
-.pricing_discribe {
-    text-align: center;
-}
-
 .pricing_span_grey {
     color: var(--main-text-color);
     font-size: 19px;
 }
-
-
-.img_white_line {
-    margin: 0 auto;
-    height: 32px;
-    width: auto;
+.pricing_span_gold {
+    color: var(--main-gold-color);
+    font-size: 19px;
 }
-
 .container_pricing_li {
     display: flex;
     align-items: center;
