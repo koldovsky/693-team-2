@@ -69,3 +69,8 @@ p{
     color: var(--main-bg-color);
     background-color: var(--white-text-color);
 }
+.img_simple_line{
+    height: 32px;
+    width: 100%;
+    max-width: 380px;
+}
