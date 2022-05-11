@@ -3,6 +3,8 @@
     text-align: center;
     background-color: var(--main-bg-color);
     color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .cooperation__h2 {
@@ -37,24 +39,27 @@
 
 .cooperation__info-consulting {
     background-image: url("../img/cooperation/men-on-field.jpg");
-    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     background-repeat: no-repeat;
 }
 
 .cooperation__info-tobacco {
     background-image: url("../img/cooperation/woman-with-cigar.jpg");
-    background-size: 100%;
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     background-repeat: no-repeat;
 }
 
 .cooperation__info-cigars {
     background-image: url("../img/cooperation/cigars-in-bamboo.jpg");
-    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     background-repeat: no-repeat;
-}
-
-.cooperation__info {
-    margin: auto;
 }
 
 .cooperation__info-button {
