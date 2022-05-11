@@ -95,6 +95,10 @@
     font-family: 'BenchNine', sans-serif;
     font-size: 40px;
 }
+.cooperation-bottom_whiteline{
+    margin-left: auto;
+    margin-right: auto;
+}
 .cooperation__subtitle{
 color: var(--main-text-color);
 font-family: 'BenchNine', sans-serif;
@@ -117,12 +121,17 @@ font-size: 19px;
     padding: 10%;
     margin-top: 10px;
     margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 .cooperation__info-consulting{
     background-image: url("../img/cooperation/men-on-field.jpg");
 }
 .cooperation__info-tobacco{
     background-image: url("../img/cooperation/woman-with-cigar.jpg");
+    background-position: center;
 }
 .cooperation__info-cigars{
     background-image: url("../img/cooperation/cigars-in-bamboo.jpg");
