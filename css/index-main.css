@@ -466,7 +466,12 @@ font-size: 19px;
 }
 .partners_partners-logo {
     width: 300px;
-    align-items: center;
+    align-items: center; 
+    background-image: url(".../img/good_cigars/bg_origin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 52% 87%;
 }
 
 /*Vynohradova Liubov end*/
