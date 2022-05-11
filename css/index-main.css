@@ -126,14 +126,14 @@ font-size: 19px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    align-items: stretch;
 }
 .cooperation__info-consulting{
     background-image: url("../img/cooperation/men-on-field.jpg");
 }
 .cooperation__info-tobacco{
     background-image: url("../img/cooperation/woman-with-cigar.jpg");
-    background-position: center;
+    background-position: 50% 10% ;
 }
 .cooperation__info-cigars{
     background-image: url("../img/cooperation/cigars-in-bamboo.jpg");
