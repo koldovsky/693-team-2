@@ -86,6 +86,8 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: 52% 87%;
+    min-height: 500px;
+    margin: auto;
 }
 
 .pricing {
@@ -162,10 +164,23 @@
     height: 32px;
     width: auto;
 }
-
+.container_pricing_list{
+    padding:  30px;
+    border: 2px solid white;
+}
+.pricing_list{
+    display: flex;
+    flex-direction: column;
+}
 .pricing_li {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    padding: 15px;
+    
 }
 
 /*Kateryna Danylo end */
