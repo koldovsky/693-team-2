@@ -180,9 +180,9 @@ font-size: 19px;
     background-position: 52% 87%;
 }
 
-.pricing_discribe,
-.container_pricing_list {
-    background: rgba(33, 32, 32, 0.92);
+.container_pricing {
+     background: rgba(33, 32, 32, 0.92);
+     padding: 30px;
 }
 
 .good_cigars_quality {
@@ -516,26 +516,25 @@ font-size: 19px;
     text-align: center;
 }
 
-.john_bomstrom_subs {
+.john_bomstrom_subs
+.social_services_john {
     margin: auto;
     width: auto;
     text-align: center;
 }
-.jack_bomstrom_subs {
+.jack_bomstrom_subs
+.social_services_jack {
     margin: auto;
     width: auto;
     text-align: center;
 }
-.hugh_bomstrom_subs {
+.hugh_bomstrom_subs
+.social_services_hugh {
     margin: auto;
     width: auto;
     text-align: center;
 }
-.social_services {
-    margin: auto;
-    width: auto;
-    text-align: center;
-}
+
 .our_gallery_subs {
     margin: auto;
     width: auto;
