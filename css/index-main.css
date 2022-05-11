@@ -168,6 +168,7 @@
     width: auto;
 }
 
+
 .pricing_li {
     display: flex;
     align-items: center;
@@ -250,7 +251,6 @@
 /*Vladyslav Volkov end*/
 /* Denys Voitov start */
 
-
 .history {
     background-color: var(--main-bg-color);
     padding-top: 92.5px;
@@ -268,6 +268,7 @@
     margin-top: 25px;
     width: auto;
     height: 32px;
+  
 }
 
 .dates__image {
@@ -279,21 +280,22 @@
 
 .history__subheader {
     color: var(--main-text-color);
-    text-align: center;
     box-sizing: border-box;
     margin-top: 20px;
-    position: relative;
-    font-weight: 400px;
     font-size: 19px;
+    text-align: center;
+    padding-top: 15px;
+    width: 760px;
+    margin: 0 auto;
 
 }
 
 .history__dates {
     display: flex;
-    align-items: flex-start;
-    gap: 30px;
+    align-items: center;
     padding: 0 200px;
     margin-top: 45px;
+    
 }
 
 .dates__h3 {
@@ -307,8 +309,34 @@
 .dates__description {
     color: var(--white-text-color);
     font-family: 'Robotto', sans-serif;
+    font-size: 17px;
     margin-top: 20px;
     margin-bottom: 60px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.history__dates {
+    display: grid;
+    gap: 30px;
+}
+
+@media (min-width: 500px) {
+    .history__dates {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 770px) {
+    .history__dates {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .history__dates {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 .inform-button-container {
