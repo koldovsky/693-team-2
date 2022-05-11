@@ -5,16 +5,25 @@
     color: white;
 }
 
+.cooperation-options{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .cooperation__h2 {
     color: var(--main-gold-color);
     font-size: 40px;
     font-family: 'BenchNine', sans-serif;
+    text-align: center;
 }
 
 .cooperation__subtitle {
     font-size: 19px;
     color: var(--main-text-color);
     font-family: 'Robotto', sans-serif;
+    text-align: center;
 }
 
 .cooperation-bottom_whiteline {
@@ -33,12 +42,15 @@
     font-size: 17px;
     font-family: 'Robotto', sans-serif;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cooperation__info-consulting {
     background-image: url("../img/cooperation/men-on-field.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .cooperation__info-tobacco {
@@ -55,6 +67,9 @@
 
 .cooperation__info {
     margin: auto;
+    width: 80%;
+    height: auto;
+    padding: 10%;
 }
 
 .cooperation__info-button {
@@ -421,7 +436,7 @@
     text-align: center;
 }
 
-.header-banner-link button : {
+.header-banner-link button  {
     background-color: var(--button-changed-color);
 }
 
