@@ -527,8 +527,8 @@ font-size: 19px;
     background-size: cover;
 }
 
-.john_bomstrom_subs
-.jack_bomstrom_subs
+.john_bomstrom_subs,
+.jack_bomstrom_subs,
 .hugh_bomstrom_subs {
     margin: auto;
     width: auto;
