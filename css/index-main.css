@@ -234,12 +234,6 @@ font-size: 19px;
     font-size: 17px;
 }
 
-.pricing_button {
-    padding: 15px 25px;
-}
-.pricing_button:hover {
-    background-color: var(--button-changed-color);
-}
 
 .img_white_line {
     margin: 0 auto;
