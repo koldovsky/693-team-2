@@ -21,11 +21,20 @@ body{
 
 img {
     display: block;
-    width: 10%;
+    width: 100%;
 }
 
-/* h2{
+h2{
     color: var(--main-gold-color);
     font-size: 40px;
     font-family: 'BenchNine', sans-serif;
- } */
+ }
+h4{
+    color: var(--main-text-color);
+    font-size: 19px;
+}
+
+p{
+    color: var(--white-text-color);
+    font-size: 17px;
+}
