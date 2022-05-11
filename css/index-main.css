@@ -168,6 +168,8 @@ font-size: 19px;
     background-size: cover;
     background-attachment: fixed;
     background-position: 52% 87%;
+    min-height: 500px;
+    margin: auto;
 }
 
 .pricing {
@@ -248,7 +250,13 @@ font-size: 19px;
 
 .pricing_li {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    padding: 15px;
+    
 }
 
 /*Kateryna Danylo end */
