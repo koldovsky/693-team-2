@@ -458,10 +458,11 @@ font-size: 19px;
 
 .partners__h2 {
     font-family: 'BenchNine', sans-serif;
-    font-size: 34px;
+    font-size: 36px;
     color: rgb(197, 163, 92);
     text-align: center;
     padding-top: 30px;
+    align-items: center;
 }
 
 .line_under {
@@ -469,6 +470,7 @@ font-size: 19px;
     width: auto;
     height: 32px;
     background-color: #1b191a;
+    align-items: center;
 }
 
 .partners__subheader {
@@ -478,18 +480,17 @@ font-size: 19px;
 .partners_partners-logo {
     width: 300px;
     align-items: center; 
-    background-image: url(".../img/good_cigars/bg_origin.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 52% 87%;
+   background-color: #1b191a;
 }
-.partners__number-h2 {
-    background-image: url(".../img/good_cigars/bg_origin.png");
+
+.partners_information {
+    background-image: url("img/partners/background_partners.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    background-position: 52% 87%;
+    background-position: center;
+    }
+
+.partners__number-h2 {
     color: var(--main-gold-color);
     font-weight: bold;
 }
@@ -515,26 +516,6 @@ font-size: 19px;
     text-align: center;
 }
 
-.john_bomstrom_subs {
-    margin: auto;
-    width: auto;
-    text-align: center;
-}
-.jack_bomstrom_subs {
-    margin: auto;
-    width: auto;
-    text-align: center;
-}
-.hugh_bomstrom_subs {
-    margin: auto;
-    width: auto;
-    text-align: center;
-}
-.social_services {
-    margin: auto;
-    width: auto;
-    text-align: center;
-}
 .our_gallery_subs {
     margin: auto;
     width: auto;
