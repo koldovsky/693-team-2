@@ -1,8 +1,11 @@
 /*Pawlo Bryk start*/
-.cooperation-bottom {
+/* .cooperation-bottom {
+
     text-align: center;
     background-color: var(--main-bg-color);
     color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .cooperation__h2 {
@@ -35,28 +38,107 @@
     margin-bottom: 20px;
 }
 
+
 .cooperation__info-consulting {
     background-image: url("../img/cooperation/men-on-field.jpg");
-    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     background-repeat: no-repeat;
 }
 
 .cooperation__info-tobacco {
     background-image: url("../img/cooperation/woman-with-cigar.jpg");
-    background-size: 100%;
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     background-repeat: no-repeat;
 }
 
 .cooperation__info-cigars {
     background-image: url("../img/cooperation/cigars-in-bamboo.jpg");
-    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     background-repeat: no-repeat;
 }
 
-.cooperation__info {
-    margin: auto;
+.cooperation__info-button {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'BenchNine', sans-serif;
+    padding: 10px;
+    border: 2px;
+    border-radius: 10px;
+    background-color: var(--main-gold-color);
 }
 
+.cooperation__info-button:hover {
+    background-color: var(--button-changed-color);
+}
+*/
+.cooperation-bottom{
+    background-color: var(--main-bg-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cooperation__h2{
+    color: var(--main-gold-color);
+    font-family: 'BenchNine', sans-serif;
+    font-size: 40px;
+}
+.cooperation-bottom_whiteline{
+    margin-left: auto;
+    margin-right: auto;
+    width: 358px;
+    height: auto;
+}
+.cooperation__subtitle{
+color: var(--main-text-color);
+font-family: 'BenchNine', sans-serif;
+font-size: 19px;
+}
+
+.cooperation__h3{
+    font-size: 24px;
+    font-family: 'BenchNine', sans-serif;
+    color: var(--main-gold-color);
+    margin-bottom: 10px;
+}
+.cooperation_p{
+    font-size: 17px;
+    font-family: 'Robotto', sans-serif;
+    color: var(--white-text-color);
+    margin-bottom: 20px;
+}
+.cooperation__info{
+    padding: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.cooperation__info-consulting{
+    background-image: url("../img/cooperation/men-on-field.jpg");
+}
+.cooperation__info-tobacco{
+    background-image: url("../img/cooperation/woman-with-cigar.jpg");
+    background-position: center;
+}
+.cooperation__info-cigars{
+    background-image: url("../img/cooperation/cigars-in-bamboo.jpg");
+
+}
 .cooperation__info-button {
     text-decoration: none;
     color: white;
@@ -164,14 +246,8 @@
     height: 32px;
     width: auto;
 }
-.container_pricing_list{
-    padding:  30px;
-    border: 2px solid white;
-}
-.pricing_list{
-    display: flex;
-    flex-direction: column;
-}
+
+
 .pricing_li {
     display: flex;
     flex-direction: row;
@@ -268,15 +344,16 @@
 
 .history__h2 {
     font-family: 'BenchNine', sans-serif;
-    font-size: 34px;
+    font-size: 46px;
     color: var(--main-gold-color);
     text-align: center;
 }
 
-.Line {
+.line {
     margin-top: 25px;
     width: auto;
     height: 32px;
+  
 }
 
 .dates__image {
@@ -288,36 +365,69 @@
 
 .history__subheader {
     color: var(--main-text-color);
-    text-align: center;
-    box-sizing:border-box;
+    box-sizing: border-box;
     margin-top: 20px;
-    position: relative;
-    font-weight:400px;
     font-size: 19px;
+    text-align: center;
+    padding-top: 15px;
+    width: 760px;
+    margin: 0 auto;
 
 }
+
 .history__dates {
     display: flex;
-    align-items:flex-start;
-    gap: 15px;
-    justify-content:center;
-    width: auto;
-    height: auto;
+    align-items: center;
+    padding: 0 200px;
     margin-top: 45px;
+    
 }
 
 .dates__h3 {
-        color: var(--main-gold-color);
-        font-family: 'BenchNine', sans-serif;
-        font-size: 26px;
+    color: var(--main-gold-color);
+    font-family: 'BenchNine', sans-serif;
+    font-size: 26px;
+    margin-top: 20px;
 
 }
-    
+
 .dates__description {
     color: var(--white-text-color);
     font-family: 'Robotto', sans-serif;
+    font-size: 17px;
     margin-top: 20px;
     margin-bottom: 60px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.history__dates {
+    display: grid;
+    gap: 30px;
+}
+
+@media (min-width: 500px) {
+    .history__dates {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 770px) {
+    .history__dates {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .history__dates {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.inform-button-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .inform-button {
@@ -328,12 +438,12 @@
     border: 2px solid white;
     background-color: var(--main-bg-color);
     padding: 15px 32px;
-    
 }
 
 .inform-button:hover {
     color: var(--main-bg-color);
     background-color: var(--white-text-color);
+
 }
 
 
@@ -351,28 +461,60 @@
     padding-top: 30px;
 }
 
-.Line {
+.line_under {
     margin: auto;
     width: auto;
     height: 32px;
+    background-color: #1b191a;
 }
 
 .partners__subheader {
     color: #d0c8b9;
     text-align: center;
 }
+.partners_partners-logo {
+    width: 300px;
+    align-items: center;
+}
 
 /*Vynohradova Liubov end*/
 
 
 /*Svitlana Vusatiuk start*/
-.line {
+.img_white_line {
     margin: auto;
     width: auto;
     height: 32px;
-    
+
 }
+
 .our_founders_subs {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+
+.john_bomstrom_subs {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+.jack_bomstrom_subs {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+.hugh_bomstrom_subs {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+.social_services {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+.our_gallery_subs {
     margin: auto;
     width: auto;
     text-align: center;
@@ -381,26 +523,30 @@
 
 /*Rimma Vitkovska's start*/
 .havana {
-    background-color: var(--main-bg-color);   
+    background-color: var(--main-bg-color);
 }
+
 .location__image {
     width: 45%;
     height: 45%;
     top: 0;
     left: 0;
 }
+
 .havana__h2 {
     font-family: 'BenchNine', sans-serif;
     font-size: 34px;
     color: var(--main-gold-color);
     text-align: center;
 }
+
 .havana__h3 {
     font-family: 'Robotto', sans-serif;
     font-size: 19px;
-    color:var(--main-gold-color);
+    color: var(--main-gold-color);
     text-align: center;
 }
+
 .havana__p {
     font-family: 'Robotto', sans-serif;
     font-size: 17px;
@@ -408,10 +554,11 @@
     text-align: center;
 }
 
-.container a  {
+.container a {
     align-items: center;
-    color: rgb(208,200,185)  
+    color: rgb(208, 200, 185)
 }
+
 .navigation-banner-links a {
     text-decoration: none;
     color: white;
@@ -419,57 +566,65 @@
     font-family: 'BenchNine', sans-serif;
     padding: 10px;
     background-color: var(--main-gold-color);
-    text-align: center; 
-} 
-.header-banner-link button : {
+    text-align: center;
+}
+
+.header-banner-link button  {
     background-color: var(--button-changed-color);
 }
+
 header-banner-link button :hover {
     background-color: var(--button-changed-black);
 }
+
 .testimonials {
     background-color: #1b191a;
 }
+
 .testimonials-title {
     font-family: 'BenchNine', sans-serif;
     font-size: 34px;
     color: rgb(197, 163, 92);
     text-align: center;
 }
+
 .testimonials__subtitle {
     font-family: 'Robotto', sans-serif;
     font-size: 19px;
     color: rgb(200, 200, 185);
     text-align: center;
 }
+
 .header__top {
     background-image: url(../img/logo/image_background_1.png);
     background-size: cover;
     background-position: center;
     min-height: 900px;
-    
-    }
-    .header__banner {
-       background-image: url(../img/logo/bg-cigars.png);
-       background-repeat: no-repeat;
-       background-size: contain;
-       min-height: 750px;
-        background-position: center;
-        padding-top: 700px;
-        
-    }
 
-    .header__top-navigation-logo {
-        width: 132%;
-        height: auto;
-        position: center;
-       padding-top: 30px;
-        padding-left: 90px;
-    }
+}
 
-    .header__top-navigation-links {
-       position: absolute; 
-       top: 45px;
-       left: 600px;
-    }
+.header__banner {
+    background-image: url(../img/logo/bg-cigars.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 750px;
+    background-position: center;
+    padding-top: 700px;
+
+}
+
+.header__top-navigation-logo {
+    width: 132%;
+    height: auto;
+    position: center;
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+.header__top-navigation-links {
+    position: absolute;
+    top: 45px;
+    left: 600px;
+}
+
 /*Rimma Vitkovska's end*/
