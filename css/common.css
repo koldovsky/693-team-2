@@ -29,6 +29,11 @@ h2{
     font-size: 40px;
     font-family: 'BenchNine', sans-serif;
  }
+h3{
+    color: var(--main-gold-color);
+    font-size: 26px;
+    font-family: 'BenchNine', sans-serif;
+}
 h4{
     color: var(--main-text-color);
     font-size: 19px;
