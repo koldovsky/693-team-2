@@ -462,6 +462,7 @@ font-size: 19px;
     color: rgb(197, 163, 92);
     text-align: center;
     padding-top: 30px;
+    align-items: center;
 }
 
 .line_under {
