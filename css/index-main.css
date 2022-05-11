@@ -79,7 +79,7 @@
     background-color: var(--button-changed-color);
 }
 */
-.cooperation-bottom{
+.cooperation-bottom {
     background-color: var(--main-bg-color);
     text-align: center;
     display: flex;
@@ -90,36 +90,41 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.cooperation__h2{
+
+.cooperation__h2 {
     color: var(--main-gold-color);
     font-family: 'BenchNine', sans-serif;
     font-size: 40px;
 }
-.cooperation-bottom_whiteline{
+
+.cooperation-bottom_whiteline {
     margin-left: auto;
     margin-right: auto;
     width: 358px;
     height: auto;
 }
-.cooperation__subtitle{
-color: var(--main-text-color);
-font-family: 'BenchNine', sans-serif;
-font-size: 19px;
+
+.cooperation__subtitle {
+    color: var(--main-text-color);
+    font-family: 'BenchNine', sans-serif;
+    font-size: 19px;
 }
 
-.cooperation__h3{
+.cooperation__h3 {
     font-size: 24px;
     font-family: 'BenchNine', sans-serif;
     color: var(--main-gold-color);
     margin-bottom: 10px;
 }
-.cooperation_p{
+
+.cooperation_p {
     font-size: 17px;
     font-family: 'Robotto', sans-serif;
     color: var(--white-text-color);
     margin-bottom: 20px;
 }
-.cooperation__info{
+
+.cooperation__info {
     padding: 10%;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -128,17 +133,21 @@ font-size: 19px;
     background-position: center;
     align-items: stretch;
 }
-.cooperation__info-consulting{
+
+.cooperation__info-consulting {
     background-image: url("../img/cooperation/men-on-field.jpg");
 }
-.cooperation__info-tobacco{
+
+.cooperation__info-tobacco {
     background-image: url("../img/cooperation/woman-with-cigar.jpg");
-    background-position: 50% 10% ;
+    background-position: 50% 10%;
 }
-.cooperation__info-cigars{
+
+.cooperation__info-cigars {
     background-image: url("../img/cooperation/cigars-in-bamboo.jpg");
 
 }
+
 .cooperation__info-button {
     text-decoration: none;
     color: white;
@@ -173,7 +182,7 @@ font-size: 19px;
 }
 
 .pricing {
-    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.9) ), url("../img/good_cigars/cigars.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../img/good_cigars/cigars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -183,7 +192,7 @@ font-size: 19px;
 .container_pricing {
     background: rgba(33, 32, 32, 0.92);
     padding: 30px;
-} 
+}
 
 .good_cigars_quality {
     background-color: #313524;
@@ -240,7 +249,7 @@ font-size: 19px;
     width: auto;
 }
 
-.container_pricing_li{
+.container_pricing_li {
     display: flex;
     align-items: center;
 }
@@ -339,49 +348,51 @@ font-size: 19px;
 
 .history__h2 {
     font-family: 'BenchNine', sans-serif;
-    font-size: 46px;
+    font-size: 40px;
     color: var(--main-gold-color);
     text-align: center;
+    padding-top: 90px;
 }
 
-.line {
-    margin-top: 25px;
+.cooperation-bottom_whiteline {
+    margin: 20px auto;
     width: auto;
     height: 32px;
-  
+    box-sizing
 }
 
 .dates__image {
     object-fit: cover;
     object-position: 100% 100%;
     width: 100%;
-    height: 100%;
+    heigh: 100%;
+}
+
+.history__dates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 24px;
+    margin-top: 45px;
 }
 
 .history__subheader {
     color: var(--main-text-color);
+    font-family: Roboto, sans-serif;
     box-sizing: border-box;
     margin-top: 20px;
     font-size: 19px;
     text-align: center;
     padding-top: 15px;
     margin: 0 auto;
-
-}
-
-.history__dates {
-    display: flex;
-    align-items: center;
-    padding: 0 200px;
-    margin-top: 45px;
+    padding: 0 24px;
 }
 
 .dates__h3 {
     color: var(--main-gold-color);
     font-family: 'BenchNine', sans-serif;
     font-size: 26px;
-    margin-top: 20px;
-
+    margin: 20px 0;
 }
 
 .dates__description {
@@ -392,29 +403,6 @@ font-size: 19px;
     margin-bottom: 60px;
     text-align: left;
     line-height: 1.5;
-}
-
-.history__dates {
-    display: grid;
-    gap: 30px;
-}
-
-@media (min-width: 500px) {
-    .history__dates {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (min-width: 770px) {
-    .history__dates {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 1000px) {
-    .history__dates {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
 }
 
 .inform-button-container {
@@ -436,9 +424,7 @@ font-size: 19px;
 .inform-button:hover {
     color: var(--main-bg-color);
     background-color: var(--white-text-color);
-
 }
-
 
 /* Denys Voitov end */
 /*Vynohradova Liubov start*/
@@ -467,10 +453,11 @@ font-size: 19px;
     color: #d0c8b9;
     text-align: center;
 }
+
 .partners_partners-logo {
     width: 300px;
-    align-items: center; 
-   background-color: #1b191a;
+    align-items: center;
+    background-color: #1b191a;
 }
 
 .partners_information {
@@ -478,12 +465,13 @@ font-size: 19px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    }
+}
 
 .partners__number-h2 {
     color: var(--main-gold-color);
     font-weight: bold;
 }
+
 .subpartners {
     color: white;
     font-weight: bold;
@@ -529,7 +517,7 @@ font-size: 19px;
 .hugh_bomstrom_subs {
     margin: auto;
     width: auto;
-    text-align: center;  
+    text-align: center;
 }
 
 .social_services_john,
@@ -547,17 +535,19 @@ font-size: 19px;
     background-color: var(--main-bg-color);
     font-size: 17px;
     line-height: 1.5;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     padding-top: 90px;
     padding-bottom: 40px;
 }
+
 .location__image {
     padding-left: 15px;
     padding-right: 15px;
     min-height: 32px;
     display: flex;
-    margin: 10px 10px; 
+    margin: 10px 10px;
 }
+
 .havana__h2 {
     font-family: 'BenchNine', sans-serif;
     font-size: 40px;
@@ -565,9 +555,11 @@ font-size: 19px;
     text-align: center;
     margin: 20px;
 }
+
 . cooperation-bottom_whiteline {
     margin: 20px;
 }
+
 .havana__h4 {
     font-family: 'Robotto', sans-serif;
     font-size: 19px;
@@ -575,6 +567,7 @@ font-size: 19px;
     text-align: center;
     margin: 20px;
 }
+
 .havana__p {
     position: relative;
     max-width: 100%;
@@ -585,6 +578,7 @@ font-size: 19px;
     text-align: center;
     margin: 20px;
 }
+
 .container a {
     justify-content: flex-start;
     color: rgb(208, 200, 185);
@@ -593,6 +587,7 @@ font-size: 19px;
     border-radius: 20px;
     margin: 20px;
 }
+
 .navigation-banner-links {
     padding: 14px 20px;
     justify-content: space-around;
@@ -600,28 +595,34 @@ font-size: 19px;
     display: inline-block;
     margin-top: 10px;
     text-align: center;
-} 
+}
+
 .banner_contact {
     padding: 14px 20px;
     margin: 5px;
 }
+
 .banner_learnmore {
     padding: 14px 20px;
-    margin: 5px;  
+    margin: 5px;
 }
+
 .testimonials {
     background-color: #1b191a;
 }
+
 .testimonials-title {
     font-family: 'BenchNine', sans-serif;
     font-size: 34px;
     color: rgb(197, 163, 92);
     text-align: center;
 }
+
 .testimonials__subtitle {
     font-family: 'Robotto', sans-serif;
     font-size: 19px;
     color: rgb(200, 200, 185);
     text-align: center;
 }
+
 /*Rimma Vitkovska's end*/
