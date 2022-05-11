@@ -181,9 +181,9 @@ font-size: 19px;
 }
 
 .container_pricing {
-     /* background: rgba(33, 32, 32, 0.92); */
-     padding: 30px;
-}
+    background: rgba(33, 32, 32, 0.92);
+    padding: 30px;
+} 
 
 .good_cigars_quality {
     background-color: #313524;
@@ -233,7 +233,6 @@ font-size: 19px;
     color: var(--white-text-color);
     font-size: 17px;
 }
-
 
 .img_white_line {
     margin: 0 auto;
