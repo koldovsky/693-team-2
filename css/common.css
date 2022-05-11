@@ -37,6 +37,8 @@ h3{
 h4{
     color: var(--main-text-color);
     font-size: 19px;
+    font-family: 'Robotto', sans-serif;
+    
 }
 
 p{

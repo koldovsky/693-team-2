@@ -240,14 +240,18 @@ font-size: 19px;
     width: auto;
 }
 
+.container_pricing_li{
+    display: flex;
+    align-items: center;
+}
 
 .pricing_li {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    padding: 45px;
+    border: 1px solid black;
+    padding: 50px;
 }
 
 /*Kateryna Danylo end */
