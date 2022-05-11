@@ -507,7 +507,6 @@ font-size: 19px;
     margin: auto;
     width: auto;
     height: 32px;
-
 }
 
 .our_founders_subs {
@@ -520,6 +519,12 @@ font-size: 19px;
     margin: auto;
     width: auto;
     text-align: center;
+}
+.our_founders
+.gallery {
+    background-image: url("../img/good_cigars/bg_good_cigars.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*Svitlana Vusatiuk end*/
 
