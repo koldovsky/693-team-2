@@ -528,6 +528,14 @@ font-size: 19px;
     text-align: center;  
 }
 
+.social_services_john,
+.social_services_jack,
+.social_services_hugh {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+
 /*Svitlana Vusatiuk end*/
 
 /*Rimma Vitkovska's start*/
