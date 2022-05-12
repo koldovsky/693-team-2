@@ -333,6 +333,7 @@
 
 .history__dates {
     display: flex;
+    text-align: left;
     flex-direction: column;
     align-items: center;
     padding: 0 24px;
@@ -519,9 +520,9 @@
     margin: 20px;
 }
 
-.cooperation-bottom_whiteline {
+/* .cooperation-bottom_whiteline {
     margin: 20px;
-}
+} */
 
 .havana__h4 {
     font-family: 'Robotto', sans-serif;
