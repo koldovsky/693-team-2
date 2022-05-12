@@ -1,84 +1,4 @@
 /*Pawlo Bryk start*/
-/* .cooperation-bottom {
-
-    text-align: center;
-    background-color: var(--main-bg-color);
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.cooperation__h2 {
-    color: var(--main-gold-color);
-    font-size: 40px;
-    font-family: 'BenchNine', sans-serif;
-}
-
-.cooperation__subtitle {
-    font-size: 19px;
-    color: var(--main-text-color);
-    font-family: 'Robotto', sans-serif;
-}
-
-.cooperation-bottom_whiteline {
-    margin: auto;
-    width: auto;
-    height: 32px;
-}
-
-.cooperation__h3 {
-    font-size: 24px;
-    font-family: 'BenchNine', sans-serif;
-    margin-top: 20px;
-}
-
-.cooperation_p {
-    font-size: 17px;
-    font-family: 'Robotto', sans-serif;
-    margin-bottom: 20px;
-}
-
-
-.cooperation__info-consulting {
-    background-image: url("../img/cooperation/men-on-field.jpg");
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-repeat: no-repeat;
-}
-
-.cooperation__info-tobacco {
-    background-image: url("../img/cooperation/woman-with-cigar.jpg");
-    
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-repeat: no-repeat;
-}
-
-.cooperation__info-cigars {
-    background-image: url("../img/cooperation/cigars-in-bamboo.jpg");
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-repeat: no-repeat;
-}
-
-.cooperation__info-button {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-family: 'BenchNine', sans-serif;
-    padding: 10px;
-    border: 2px;
-    border-radius: 10px;
-    background-color: var(--main-gold-color);
-}
-
-.cooperation__info-button:hover {
-    background-color: var(--button-changed-color);
-}
-*/
 .cooperation-bottom {
     background-color: var(--main-bg-color);
     text-align: center;
@@ -89,12 +9,6 @@
     padding-right: 2%;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.cooperation__h2 {
-    color: var(--main-gold-color);
-    font-family: 'BenchNine', sans-serif;
-    font-size: 40px;
 }
 
 .cooperation-bottom_whiteline {
@@ -108,13 +22,6 @@
     color: var(--main-text-color);
     font-family: 'BenchNine', sans-serif;
     font-size: 19px;
-}
-
-.cooperation__h3 {
-    font-size: 24px;
-    font-family: 'BenchNine', sans-serif;
-    color: var(--main-gold-color);
-    margin-bottom: 10px;
 }
 
 .cooperation_p {
