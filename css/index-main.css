@@ -518,6 +518,7 @@ height: auto;
 /*Diava Vesna start*/
 .coop-btns {
     margin-top: 50px;
+    display: flex;
    
     
 }
