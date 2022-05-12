@@ -302,22 +302,16 @@ height: auto;
     text-align: center;
 }
 
-.social_services_john,
-.social_services_jack,
-.social_services_hugh {
-    margin: auto;
-    width: auto;
-    text-align: center;
-}
 .john_bomstrom_info
 .jack_bomstrom_info
 .hugh_bomstrom_info {
-    border-radius: inherit;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    border-radius: 50%;
+    position: center;
+    width: 70px;
+    height: 70px;
 
 }
+
 
 /*Svitlana Vusatiuk end*/
 
