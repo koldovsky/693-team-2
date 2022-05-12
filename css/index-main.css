@@ -43,17 +43,21 @@
 }
 
 .cooperation__info-consulting {
-    background-image: url("../img/cooperation/men-on-field.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url("../img/cooperation/men-on-field.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .cooperation__info-tobacco {
-    background-image: url("../img/cooperation/woman-with-cigar.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url("../img/cooperation/woman-with-cigar.jpg");
     background-position: 50% 10%;
+    background-size: cover;
 }
 
 .cooperation__info-cigars {
-    background-image: url("../img/cooperation/cigars-in-bamboo.jpg");
-
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url("../img/cooperation/cigars-in-bamboo.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .cooperation__info-button {
