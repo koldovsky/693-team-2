@@ -90,4 +90,10 @@
     padding-top: 700px;
 
 }
-
+.header__top-navigation-logo {
+    width: 200px;
+    height: auto;
+    margin-right: 90px;
+    margin-left: 20px;
+   padding-bottom: 20px;
+}
