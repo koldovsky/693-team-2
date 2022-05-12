@@ -306,8 +306,7 @@
 
 .history {
     background-color: var(--main-bg-color);
-    padding-top: 92.5px;
-    padding-bottom: 95px;
+    padding: 90px 0;
 }
 
 .history__h2 {
@@ -336,10 +335,9 @@
     text-align: left;
     flex-direction: column;
     align-items: center;
-    padding: 0 24px;
-    margin-top: 45px;
+    padding: 0 15px;
+    
 }
-
 .history__subheader {
     color: var(--main-text-color);
     font-family: Roboto, sans-serif;
@@ -349,6 +347,7 @@
     text-align: center;
     padding-top: 15px;
     margin: 0 auto;
+    margin-bottom: 45px;
     padding: 0 24px;
 }
 
@@ -364,7 +363,7 @@
     font-family: 'Robotto', sans-serif;
     font-size: 17px;
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     text-align: left;
     line-height: 1.5;
 }
@@ -389,6 +388,22 @@
     color: var(--main-bg-color);
     background-color: var(--white-text-color);
 }
+
+@media (min-width: 760px) {
+    .history__dates {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+    }  
+}
+
+@media (min-width: 990px) {
+    .history__dates {
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 15px;
+    }  
+}
+
 
 /* Denys Voitov end */
 /*Vynohradova Liubov start*/
