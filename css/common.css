@@ -54,6 +54,7 @@ p{
     border: none;
     font-family: 'BenchNine', sans-serif;
     padding: 15px 32px;
+    text-decoration: none;
 }
 .btn_light:hover{
     background-color: var(--button-changed-color);
@@ -64,7 +65,9 @@ p{
     font-family: 'BenchNine', sans-serif;
     border: 2px solid var(--white-text-color);
     padding: 15px 32px;
+    text-decoration: none;
 }
+
 .btn_dark:hover {
     color: var(--main-bg-color);
     background-color: var(--white-text-color);
@@ -75,3 +78,8 @@ p{
     max-width: 380px;
     margin: 10px auto;
 }
+
+.john_bomstrom {
+    background: #1b191a;
+}
+ 
