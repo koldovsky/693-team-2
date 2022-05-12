@@ -212,6 +212,8 @@
 .history {
     background-color: var(--main-bg-color);
     padding: 90px 0;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .history__h2 {
