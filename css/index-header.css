@@ -88,6 +88,7 @@
     min-height: 750px;
     background-position: center;
     padding-top: 700px;
+    display: flex;
 }
 
 .header__top-navigation-logo {
