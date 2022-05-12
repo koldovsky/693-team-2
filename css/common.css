@@ -79,19 +79,13 @@ p{
     margin: 10px auto;
 }
 
-.john_bomstrom {
-    background: #1b191a;
-    width: 230px;
-    height: 650px;
-    padding: auto;
-    border: none;
-    margin: auto;
-    font-size: 17px;
-}
-.jack_bomstrom {
-    background: #1b191a; 
-}
+.john_bomstrom
+.jack_bomstrom
 .hugh_bomstrom {
     background: #1b191a;
+    width: 230px;
+    height: 450px;
+    padding: auto;
+    border: none;
+    margin: 25px;
 }
- 
