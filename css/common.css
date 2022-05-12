@@ -65,6 +65,7 @@ p{
     font-family: 'BenchNine', sans-serif;
     border: 2px solid var(--white-text-color);
     padding: 15px 32px;
+    text-decoration: none;
 }
 
 .btn_dark:hover {
