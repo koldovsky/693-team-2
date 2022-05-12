@@ -96,4 +96,13 @@
     margin-right: 90px;
     margin-left: 20px;
    padding-bottom: 20px;
+   font-family: 'BenchNine', sans-serif;
 }
+.single-dark-btn {
+    margin-top: 30px;
+}
+A {
+    color:#fff
+}
+
+/* Diana Vesna end*/
