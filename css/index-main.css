@@ -414,7 +414,15 @@ height: auto;
     width: auto;
     text-align: center;
 }
+.john_bomstrom_info
+.jack_bomstrom_info
+.hugh_bomstrom_info {
+    border-radius: inherit;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 
+}
 
 /*Svitlana Vusatiuk end*/
 
