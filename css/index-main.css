@@ -9,6 +9,7 @@
     padding-right: 2%;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 50px;
 }
 
 .cooperation-bottom_whiteline {
@@ -23,19 +24,22 @@
     color: var(--main-text-color);
     font-family: 'BenchNine', sans-serif;
     font-size: 19px;
+    margin-bottom: 30px;
 }
 
 .cooperation_p {
     font-size: 17px;
     font-family: 'Robotto', sans-serif;
     color: var(--white-text-color);
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .cooperation__info {
-    padding: 10%;
+    padding: 20%;
     margin-top: 10px;
     margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
