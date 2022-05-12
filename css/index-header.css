@@ -89,6 +89,7 @@
     background-position: center;
     padding-top: 700px;
     display: flex;
+    justify-content: space-around;
 }
 
 .header__top-navigation-logo {
