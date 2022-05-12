@@ -57,19 +57,8 @@
 
 .cooperation__info-button {
     text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-family: 'BenchNine', sans-serif;
-    padding: 10px;
-    border: 2px;
     border-radius: 10px;
-    background-color: var(--main-gold-color);
 }
-
-.cooperation__info-button:hover {
-    background-color: var(--button-changed-color);
-}
-
 /*Pawlo Bryk end*/
 /* Kateryna Danylo Start*/
 .good_cigars {
