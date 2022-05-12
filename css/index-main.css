@@ -89,17 +89,26 @@
     background: rgba(33, 32, 32, 0.92);
     padding: 30px;
 }
-
+.good_cigars{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .good_cigars_quality {
     background-color: #313524;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     justify-content: space-around;
+    align-items: center;
+    margin: 25px 25px;
 }
 
 .good_cigar_seed {
     background-color: #3F3229;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     justify-content: space-around;
+    align-items: center;
+    margin: 25px 25px;
 }
 
 .pricing_span_grey {
