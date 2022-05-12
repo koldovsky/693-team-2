@@ -464,12 +464,14 @@ gap: 15px;
 }
 
 .container a {
-    justify-content: flex-start;
+    
     color: rgb(208, 200, 185);
     margin-top: 30px;
     padding: 30px;
     border-radius: 20px;
     margin: 20px;
+    justify-content: center;
+ 
 }
 
 .navigation-banner-links {
@@ -492,6 +494,8 @@ gap: 15px;
 }
 
 .testimonials {
+    padding-top: 90px;
+    padding-bottom: 40px;
     background-color: #1b191a;
 }
 
