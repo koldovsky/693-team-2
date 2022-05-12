@@ -8,7 +8,7 @@
 }
 
 .our_founders_subs_p {
-    font-size: 19px;
+    font-size: 17px;
     color: #d0c8b9;
     text-align: center;
     position: relative;
@@ -88,12 +88,30 @@
     min-height: 750px;
     background-position: center;
     padding-top: 700px;
-
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
 }
+
 .header__top-navigation-logo {
     width: 200px;
     height: auto;
     margin-right: 90px;
     margin-left: 20px;
    padding-bottom: 20px;
+   font-family: 'BenchNine', sans-serif;
 }
+
+.single-dark-btn {
+    margin-top: 30px;
+}
+
+A {
+    color:#fff
+}
+
+.header__block {
+  padding-bottom: 20px;
+    padding-top: 20px;
+}
+/* Diana Vesna end*/
