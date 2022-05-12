@@ -368,10 +368,11 @@ gap: 15px;
 
 /*Svitlana Vusatiuk start*/
 .img_white_line {
-    margin: auto;
-    width: auto;
-    height: 32px;
-    background-color: transparent;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+max-width: 358px;
+height: auto;
 }
 
 .our_founders_subs {
