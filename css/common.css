@@ -81,6 +81,12 @@ p{
 
 .john_bomstrom {
     background: #1b191a;
+    width: 230px;
+    height: 650px;
+    padding: auto;
+    border: none;
+    margin: auto;
+    font-size: 17px;
 }
 .jack_bomstrom {
     background: #1b191a; 
