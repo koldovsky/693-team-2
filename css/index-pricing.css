@@ -33,9 +33,16 @@
     border: 1px solid black;
     padding: 50px;
 }
+.pricing_money, 
+.pricing_quantity, 
+.pricing_button_order, 
+.pricing_tabacco_kind, 
+.pricing_icon {
+    white-space: nowrap;
+}
 
 .container_pricing_li>div {
-    margin: 25px;
+    margin: 20px;
 }
 .pricing_discribe>h4{
     margin: 30px auto;
@@ -44,5 +51,8 @@
 @media (min-width:767px) {
     .container_pricing_li {
         flex-direction: row;
+    }
+    .container_pricing_li>div {
+        margin: 15px;
     }
 }
