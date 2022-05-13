@@ -154,61 +154,6 @@
 
 /*Vladyslav Volkov end*/
 
-/*Svitlana Vusatiuk start*/
-.img_white_line {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 358px;
-    height: auto;
-}
-
-.our_founders_subs {
-    margin: auto;
-    width: auto;
-    text-align: center;
-}
-
-.our_gallery_subs {
-    margin: auto;
-    width: auto;
-    text-align: center;
-}
-
-.our_founders {
-    background-image: url("../img/good_cigars/bg_good_cigars.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.our_gallery {
-    background-image: url("../img/good_cigars/bg_good_cigars.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.john_bomstrom_subs,
-.jack_bomstrom_subs,
-.hugh_bomstrom_subs {
-    margin: auto;
-    width: auto;
-    text-align: center;
-}
-.john_bomstrom_info {
-    border-radius: 50%;
-    box-sizing: border-box;
-    margin: 25px auto;
-    padding: 50px 0px 50px 0px;
-    width: 70px; 
-}
-
-.john_bomstrom {
-    background: #1b191a;
-
-}
-
-/*Svitlana Vusatiuk end*/
-
 /*Diava Vesna start*/
 .coop-btns {
     margin-top: 50px;

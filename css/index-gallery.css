@@ -1,0 +1,11 @@
+.our_gallery {
+    background-image: url("../img/good_cigars/bg_good_cigars.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our_gallery_subs {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
