@@ -28,13 +28,20 @@
 
 .contacts__form{
 background-color: var(--main-bg-color);
-padding-top: 5%;
-padding-bottom: 5%;
+padding-top: 15%;
+padding-bottom: 15%;
+padding-left: 80px;
+padding-right: 80px;
+display: flex;
+flex-direction: column;
 }
 
 .contacts__form-fields{
     background-color: var(--button-changed-color);
     border: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
 }
 
 .contacts__btn{
