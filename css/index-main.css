@@ -232,7 +232,7 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 30px;
     }  
-    
+} 
 @media (min-width: 990px) {
     .partners_information {
 grid-template-columns: 1fr 1fr;
