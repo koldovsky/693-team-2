@@ -33,6 +33,7 @@ padding-bottom: 5%;
 }
 
 .contacts__form-fields{
-    
-    
+    background-color: var(--button-changed-color);
+    border: 0px;
+
 }
