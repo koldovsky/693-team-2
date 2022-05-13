@@ -11,6 +11,9 @@
     background-image: url("../img/good_cigars/bg_good_cigars.png");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 10px 0px 20px 0px;
+    padding: 80px;
+    height: 800px;
 }
 
 .our_founders_subs {
