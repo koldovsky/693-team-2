@@ -40,3 +40,9 @@
 .pricing_discribe>h4{
     margin: 30px auto;
 }
+
+@media (min-width:767px) {
+    .container_pricing_li {
+        flex-direction: row;
+    }
+}

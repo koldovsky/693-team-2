@@ -10,6 +10,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .contacts-google-location{
+        height: 200px;
+    }
+    .contacts__form{
+        height: fit-content;
+    }
 }
 
 .contacts-google-location{
@@ -25,7 +31,7 @@
 }
 .contacts__img_white_line{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 }
 
 .contacts__h3{
