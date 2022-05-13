@@ -1,0 +1,85 @@
+.partners__h2 {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 36px;
+    color: rgb(197, 163, 92);
+    text-align: center;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.line_under {
+    margin: auto;
+    width: auto;
+    height: 32px;
+    background-color: #1b191a;
+    align-items: center;
+}
+
+.partners__subheader {
+    color: #d0c8b9;
+    text-align: center;
+}
+
+.partners_partners-logo {
+    width: 300px;
+    align-items: center;
+    background-color: #1b191a;
+}
+
+.partners_information {
+    background-image: url("img/partners/background_partners.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+.wrapper {
+    display: grid;
+  }
+
+.partners__number-h2 {
+    color: var(--main-gold-color);
+    font-weight: bold;
+    margin: 7.5px;
+    padding-right: 20px;
+    padding-right: 20px;
+}
+
+.little_number {
+    flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50px;
+  padding-right: 20px;
+}
+.grid_partners{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.itemnumber {
+    grid-column: 2 / span 2;
+  }
+.subpartners {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    margin: 7.5px;
+}
+@media (min-width: 760px) {
+    .partners_information {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+    }  
+    
+@media (min-width: 990px) {
+    .partners_information {
+grid-template-columns: 1fr 1fr;
+gap: 15px;
+    }  
+}
