@@ -26,13 +26,6 @@
     width: auto;
     text-align: center;
 }
-.john_bomstrom_info {
-    border-radius: 50%;
-    box-sizing: border-box;
-    margin: 25px auto;
-    padding: 50px 0px 50px 0px;
-    width: 70px; 
-}
 
 .john_bomstrom {
     background: #1b191a;
@@ -41,3 +34,40 @@
 
 }
 
+.john_bomstrom_info {
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 25px auto;
+    padding: 50px 0px 50px 0px;
+    width: 70px; 
+}
+
+.jack_bomstrom {
+    background: #1b191a;
+    height: 450px;
+    margin: 25px;   
+}
+
+.jack_bomstrom_info {
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 25px auto;
+    padding: 50px 0px 50px 0px;
+    width: 70px; 
+}
+
+.hugh_bomstrom {
+    background: #1b191a;
+    height: 450px;
+    margin: 25px;
+
+}
+
+.hugh_bomstrom_info {
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 25px auto;
+    padding: 50px 0px 50px 0px;
+    width: 70px; 
+}
+}
