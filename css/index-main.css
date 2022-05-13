@@ -40,7 +40,7 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-content: space-around;
-    align-items: celnter;
+    align-items: center;
     text-align: left;
     margin: 25px 25px;
     padding: 35px 45px;
