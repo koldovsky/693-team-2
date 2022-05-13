@@ -27,7 +27,7 @@
 }
 
 .partners_information {
-    background-image: url("img/partners/background_partners.webp");
+    background-image: url("../img/partners/background_partners.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
