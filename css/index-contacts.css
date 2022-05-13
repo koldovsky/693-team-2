@@ -5,6 +5,13 @@
     background-image: url("../img/contacts/contacts-background.jpg");
 }
 
+@media (min-width: 768px){
+    .contacts{
+        display: flex;
+        flex-grow: calc(1 1 1);
+    }
+}
+
 .contacts-google-location{
     max-width: 90%;
     margin-bottom: 40px;
