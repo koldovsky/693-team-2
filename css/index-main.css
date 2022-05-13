@@ -67,6 +67,21 @@
 .good_cigars_quality_img{
     padding: 20px 0;
 }
+
+@media (min-width:767px) {
+    .good_cigars_quality {
+        grid-template-columns: 1fr 1fr;
+    }
+    .good_cigars_seed{
+        grid-template-columns: 1fr 1fr;
+    }
+    .good_cigars_seed_img{
+        grid-area: 1/2;
+    }
+    .good_cigars_seed_describe{
+        grid-area: 0/1;
+    }
+}
 /*Kateryna Danylo end */
 /*Vladyslav Volkov start*/
 .h2-years_quality {
