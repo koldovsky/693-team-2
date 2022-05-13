@@ -76,7 +76,7 @@
         grid-template-columns: 1fr 1fr;
     }
     .good_cigars_seed_img{
-        grid-area: 1/2;
+        grid-area: 1/2/2/3;
     } 
 }
 /*Kateryna Danylo end */
