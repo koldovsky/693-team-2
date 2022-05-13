@@ -1,0 +1,27 @@
+.contacts{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5%;
+    background-image: url("../img/contacts/contacts-background.jpg");
+}
+
+.contacts-google-location{
+    max-width: 90%;
+}
+
+.contacts__phone{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.contacts__img_white_line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts__h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
