@@ -114,4 +114,11 @@ A {
   padding-bottom: 20px;
     padding-top: 20px;
 }
+
+.link {
+   display: inline-block;
+   vertical-align: top;
+   margin: 0 15px;
+   text-decoration: none;
+}
 /* Diana Vesna end*/
