@@ -13,8 +13,10 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: 52% 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 500px;
-    margin: auto;
 }
 .good_cigars {
     display: grid;
@@ -230,107 +232,6 @@
 }
 
 /*Svitlana Vusatiuk end*/
-
-/*Rimma Vitkovska's start*/
-.havana {
-    background-color: var(--main-bg-color);
-    font-size: 17px;
-    line-height: 1.5;
-    font-family: Roboto, sans-serif;
-    padding-top: 90px;
-    padding-bottom: 40px;
-}
-
-.location__image {
-    padding-left: 0px;
-    padding-right: 15px;
-    min-height: 32px;
-    display: flex;
-    margin: 10px 10px;
-}
-
-.havana__h2 {
-    font-family: 'BenchNine', sans-serif;
-    font-size: 40px;
-    color: var(--main-gold-color);
-    text-align: center;
-    margin: 20px;
-}
-
-/* .cooperation-bottom_whiteline {
-    margin: 20px;
-} */
-.havana__h4 {
-    font-family: 'Robotto', sans-serif;
-    font-size: 19px;
-    color: var(--main-gold-color);
-    text-align: left;
-    margin: 20px;
-}
-
-.havana__p {
-    position: relative;
-    max-width: 100%;
-    word-wrap: break-word;
-    font-family: 'Robotto', sans-serif;
-    font-size: 17px;
-    color: var(--white-text-color);
-    text-align: left;
-    margin: 20px;
-}
-
-.container a {
-    color: rgb(208, 200, 185);
-    margin-top: 30px;
-    padding-top: 20px;
-    border-radius: 20px;
-    margin: 20px;
-    justify-content: center;
-    text-align: left;
-}
-
-.navigation-banner-links {
-    padding: 14px 20px;
-    justify-content: space-around;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-    text-align: left;
-}
-
-.banner_contact {
-    padding: 14px 20px;
-    margin: 5px;
-    text-decoration: none;
-}
-
-.banner_learnmore {
-    padding: 14px 20px;
-    margin: 5px;
-    text-decoration: none;
-}
-
-.testimonials {
-    padding-top: 90px;
-    padding-bottom: 40px;
-    background-color: #1b191a;
-}
-
-.testimonials-title {
-    font-family: 'BenchNine', sans-serif;
-    font-size: 34px;
-    color: rgb(197, 163, 92);
-    text-align: center;
-}
-
-.testimonials__subtitle {
-    font-family: 'Robotto', sans-serif;
-    font-size: 19px;
-    color: rgb(200, 200, 185);
-    text-align: center;
-}
-
-/*Rimma Vitkovska's end*/
 
 /*Diava Vesna start*/
 .coop-btns {
