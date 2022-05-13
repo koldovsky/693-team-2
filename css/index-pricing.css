@@ -39,10 +39,11 @@
 .pricing_tabacco_kind, 
 .pricing_icon {
     white-space: nowrap;
+    display: flex;
 }
 
 .container_pricing_li>div {
-    margin: 20px;
+    padding: 20px;
 }
 .pricing_discribe>h4{
     margin: 30px auto;
@@ -53,6 +54,16 @@
         flex-direction: row;
     }
     .container_pricing_li>div {
-        margin: 15px;
+        padding: 18px;
+    }
+}
+@media (min-width:835px) {
+    .container_pricing_li>div {
+        padding: 25px;
+    }
+}
+@media (min-width:950px) {
+    .container_pricing_li>div {
+        padding: 35px;
     }
 }
