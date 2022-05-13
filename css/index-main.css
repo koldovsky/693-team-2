@@ -143,9 +143,7 @@
 /*Vladyslav Volkov end*/
 
 /*Vynohradova Liubov start*/
-.partners {
-    background-color: #1b191a;
-}
+
 
 .partners__h2 {
     font-family: 'BenchNine', sans-serif;
@@ -181,7 +179,14 @@
     background-size: cover;
     background-position: center;
     display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
 }
+.wrapper {
+    display: grid;
+  }
 
 .partners__number-h2 {
     color: var(--main-gold-color);
@@ -189,12 +194,39 @@
     margin: 7.5px;
 }
 
+.little_number {
+    flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50px;
+}
+.grid_partners{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.itemnumber {
+    grid-column: 2 / span 2;
+  }
 .subpartners {
     color: white;
     font-weight: bold;
     text-align: left;
+    margin: 7.5px;
 }
-
+@media (min-width: 760px) {
+    .partners_information {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+    }  
+    
+@media (min-width: 990px) {
+    .partners_information {
+grid-template-columns: 1fr 1fr;
+gap: 15px;
+    }  
+}
 /*Vynohradova Liubov end*/
 
 
