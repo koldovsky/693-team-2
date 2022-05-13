@@ -197,13 +197,12 @@
 .john_bomstrom_info {
     border-radius: 50%;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 25px auto;
+    padding: 50px 0px 50px 0px;
+    width: 70px; 
 }
 
-.john_bomstrom
-.jack_bomstrom
-.hugh_bomstrom {
+.john_bomstrom {
     background: #1b191a;
 
 }
