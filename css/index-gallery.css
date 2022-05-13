@@ -4,21 +4,20 @@
     background-size: cover;
     margin: 20px 0px 20px 0px;
     padding: 80px;
+    height: 800px;
 }
 
 .our_gallery_subs {
-    margin: auto;
+    margin-bottom: 50px;
     width: auto;
     text-align: center;
     font-size: inherit;
     vertical-align: baseline;
-
+    
 }
 
 .gallery_gallery_info {
-    height: 320;
-    background-color: transparent;
-    position: absolute;
-    border-radius: inherit;
+    width: 450px;
+    
 
 }
