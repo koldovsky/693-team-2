@@ -1,0 +1,39 @@
+.pricing {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/good_cigars/cigars.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 52% 87%;
+}
+
+.container_pricing {
+    padding: 30px;
+}
+.pricing_span_grey {
+    color: var(--main-text-color);
+    font-size: 19px;
+}
+
+.pricing_span_gold {
+    color: var(--main-gold-color);
+    font-size: 19px;
+}
+
+.container_pricing_li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pricing_li {
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.container_pricing_li>div {
+    margin: 25px;
+}
