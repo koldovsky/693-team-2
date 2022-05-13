@@ -77,10 +77,7 @@
     }
     .good_cigars_seed_img{
         grid-area: 1/2;
-    }
-    .good_cigars_seed_describe{
-        grid-area: 0/1;
-    }
+    } 
 }
 /*Kateryna Danylo end */
 /*Vladyslav Volkov start*/
@@ -108,7 +105,7 @@
 }
 
 .h3-content_quality {
-    font-family: 'BenchNine' sans-serif;
+    font-family: 'BenchNine', sans-serif;
     font-size: 18px;
     color: var(--main-gold-color);
     padding-top: 20px;
