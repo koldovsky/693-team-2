@@ -2,11 +2,23 @@
     background-image: url("../img/good_cigars/bg_good_cigars.png");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 20px 0px 20px 0px;
+    padding: 80px;
 }
 
 .our_gallery_subs {
     margin: auto;
     width: auto;
     text-align: center;
+    font-size: inherit;
+    vertical-align: baseline;
+
 }
 
+.gallery_gallery_info {
+    height: 320;
+    background-color: transparent;
+    position: absolute;
+    border-radius: inherit;
+
+}
