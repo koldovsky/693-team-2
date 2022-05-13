@@ -7,6 +7,7 @@
 
 .contacts-google-location{
     max-width: 90%;
+    margin-bottom: 40px;
 }
 
 .contacts__phone{
@@ -25,3 +26,13 @@
     margin-bottom: 15px;
 }
 
+.contacts__form{
+background-color: var(--main-bg-color);
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+.contacts__form-fields{
+    
+    
+}
