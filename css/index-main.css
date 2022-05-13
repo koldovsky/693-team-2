@@ -17,23 +17,11 @@
     min-height: 500px;
     margin: auto;
 }
-
-.pricing {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../img/good_cigars/cigars.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 52% 87%;
-}
-
-.container_pricing {
-    background: rgba(33, 32, 32, 0.92);
-    padding: 30px;
-}
-.good_cigars{
+.good_cigars {
     display: grid;
     grid-template-columns: 1fr;
 }
+
 .good_cigars_quality {
     background-color: #313524;
     display: grid;
@@ -51,29 +39,6 @@
     align-items: center;
     margin: 25px 25px;
 }
-
-.pricing_span_grey {
-    color: var(--main-text-color);
-    font-size: 19px;
-}
-.pricing_span_gold {
-    color: var(--main-gold-color);
-    font-size: 19px;
-}
-.container_pricing_li {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.pricing_li {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: 1px solid black;
-    padding: 50px;
-}
-
 /*Kateryna Danylo end */
 /*Vladyslav Volkov start*/
 .h2-years_quality {
@@ -207,11 +172,11 @@
 
 /*Svitlana Vusatiuk start*/
 .img_white_line {
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-max-width: 358px;
-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 358px;
+    height: auto;
 }
 
 .our_founders_subs {
@@ -257,6 +222,7 @@ height: auto;
     padding-top: 90px;
     padding-bottom: 40px;
 }
+
 .location__image {
     padding-left: 0px;
     padding-right: 15px;
@@ -264,6 +230,7 @@ height: auto;
     display: flex;
     margin: 10px 10px;
 }
+
 .havana__h2 {
     font-family: 'BenchNine', sans-serif;
     font-size: 40px;
@@ -271,6 +238,7 @@ height: auto;
     text-align: center;
     margin: 20px;
 }
+
 /* .cooperation-bottom_whiteline {
     margin: 20px;
 } */
@@ -281,6 +249,7 @@ height: auto;
     text-align: left;
     margin: 20px;
 }
+
 .havana__p {
     position: relative;
     max-width: 100%;
@@ -291,6 +260,7 @@ height: auto;
     text-align: left;
     margin: 20px;
 }
+
 .container a {
     color: rgb(208, 200, 185);
     margin-top: 30px;
@@ -300,6 +270,7 @@ height: auto;
     justify-content: center;
     text-align: left;
 }
+
 .navigation-banner-links {
     padding: 14px 20px;
     justify-content: space-around;
@@ -308,33 +279,39 @@ height: auto;
     margin-top: 10px;
     text-align: left;
 }
+
 .banner_contact {
     padding: 14px 20px;
     margin: 5px;
     text-decoration: none;
 }
+
 .banner_learnmore {
     padding: 14px 20px;
     margin: 5px;
-    text-decoration: none;   
+    text-decoration: none;
 }
+
 .testimonials {
     padding-top: 90px;
     padding-bottom: 40px;
     background-color: #1b191a;
 }
+
 .testimonials-title {
     font-family: 'BenchNine', sans-serif;
     font-size: 34px;
     color: rgb(197, 163, 92);
     text-align: center;
 }
+
 .testimonials__subtitle {
     font-family: 'Robotto', sans-serif;
     font-size: 19px;
     color: rgb(200, 200, 185);
     text-align: center;
 }
+
 /*Rimma Vitkovska's end*/
 
 /*Diava Vesna start*/
@@ -343,6 +320,7 @@ height: auto;
     display: flex;
     justify-content: space-around;
 }
+
 /*Diana Vesna end*/
 
 /* Diana vesna start*/
