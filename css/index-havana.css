@@ -4,7 +4,7 @@
     line-height: 1.5;
     font-family: Roboto, sans-serif;
     padding-top: 90px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 .location__image {
     padding-left: 0px;
@@ -14,11 +14,12 @@
     margin: 10px 10px;
 }
 .havana__h2 {
-    font-family: 'BenchNine', sans-serif;
-    font-size: 40px;
-    color: var(--main-gold-color);
     text-align: left;
     margin: 20px;
+}
+.white_line_left {
+  margin-right: auto;
+  padding-left: 20px;
 }
 .havana__h4 {
     font-family: 'Robotto', sans-serif;
@@ -28,23 +29,18 @@
     margin: 20px;
 }
 .havana__p {
-    position: relative;
-    max-width: 100%;
-    word-wrap: break-word;
     font-family: 'Robotto', sans-serif;
     font-size: 17px;
     color: var(--white-text-color);
     text-align: left;
     margin: 20px;
 }
-.container a {
-    color: rgb(208, 200, 185);
-    margin-top: 30px;
-    padding-top: 20px;
-    border-radius: 20px;
+.container-button-social a {
+    color: var(--main-text-color);
     margin: 20px;
-    justify-content: center;
-    text-align: left;
+    justify-content: space-around; 
+    width: 30px;
+    height: 30px;
 }
 .navigation-banner-links {
     padding: 14px 20px;
