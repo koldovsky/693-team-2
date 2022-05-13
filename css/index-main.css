@@ -13,8 +13,11 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: 52% 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 500px;
-    margin: auto;
+    margin: 25px;
 }
 .good_cigars {
     display: grid;
