@@ -9,7 +9,6 @@
 
 .container-button-websocial {
     color: var(--main-text-color);
-    margin: 20px;
     justify-content: space-around; 
     padding: 50px;
     width: 30px;
@@ -61,7 +60,7 @@
 .jack_bomstrom {
     background: #1b191a;
     width: 570px;
-    margin: 25px;
+    padding: 20px;
 }
 
 .jack_bomstrom_info {
@@ -85,7 +84,7 @@
 .hugh_bomstrom {
     background: #1b191a;
     width: 570px;
-    margin: 25px;
+    padding: 20px;
 }
 
 .hugh_bomstrom_info {
