@@ -9,10 +9,11 @@
 
 .container-button-websocial {
     color: var(--main-text-color);
+    margin: 20px;
     justify-content: space-around; 
-    padding: 50px;
     width: 30px;
     height: 30px;
+    
 }
 
 .our_founders {
@@ -35,8 +36,16 @@
 .john_bomstrom {
     background: #1b191a;
     width: 570px;
-    padding: 20px;
+    margin: 20px;
 
+}
+
+.john_bomstrom_info {
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    width: 70px; 
 }
 
 .john_bomstrom_subs {
@@ -49,26 +58,19 @@
 
 }
 
-.john_bomstrom_info {
-    border-radius: 50%;
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 10px 0px 10px 0px;
-    width: 70px; 
-}
-
 .jack_bomstrom {
     background: #1b191a;
     width: 570px;
-    padding: 20px;
+    margin: 20px;
 }
 
 .jack_bomstrom_info {
     border-radius: 50%;
     box-sizing: border-box;
-    margin: 0px;
+    margin: 25px auto;
     padding: 10px 0px 10px 0px;
-    width: 70px; 
+    width: 70px;
+
 }
 
 .jack_bomstrom_subs {
@@ -84,15 +86,16 @@
 .hugh_bomstrom {
     background: #1b191a;
     width: 570px;
-    padding: 20px;
+    margin: 20px;
 }
 
 .hugh_bomstrom_info {
     border-radius: 50%;
     box-sizing: border-box;
-    margin: 0px;
+    margin: 25px auto;
     padding: 10px 0px 10px 0px;
     width: 70px; 
+
 }
 
 .hugh_bomstrom_subs {
