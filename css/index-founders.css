@@ -31,13 +31,6 @@
     text-align: center;
 }
 
-.john_bomstrom {
-    background: #1b191a;
-    width: 570px;
-    position: absolute;
-
-}
-
 .john_bomstrom_info {
     border-radius: 50%;
     box-sizing: border-box;
@@ -46,26 +39,12 @@
     width: 70px; 
 }
 
-.jack_bomstrom {
-    background: #1b191a;
-    width: 570px;
-    position: absolute;
-
-}
-
 .jack_bomstrom_info {
     border-radius: 50%;
     box-sizing: border-box;
     margin: 25px auto;
     padding: 50px 0px 50px 0px;
     width: 70px; 
-}
-
-.hugh_bomstrom {
-    background: #1b191a;
-    width: 570px;
-    position: absolute;
-
 }
 
 .hugh_bomstrom_info {
