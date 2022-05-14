@@ -14,6 +14,9 @@
     margin: 10px 0px 20px 0px;
     padding: 80px;
     height: 1035px;
+    position: absolute;
+    -webkit-box-direction: normal;
+    
 }
 
 .our_founders_subs {
@@ -32,8 +35,15 @@
 
 .john_bomstrom {
     background: #1b191a;
-    height: 450px;
+    height: 491px;
+    width: 361px;
     margin: 25px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
 }
 
