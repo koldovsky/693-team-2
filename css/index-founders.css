@@ -7,6 +7,10 @@
     height: auto;
 }
 
+.social-contacts {
+    margin: 20px;
+}
+
 .our_founders {
     background-image: url("../img/good_cigars/bg_good_cigars.png");
     background-repeat: no-repeat;
