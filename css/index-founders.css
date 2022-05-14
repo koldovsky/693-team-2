@@ -13,14 +13,14 @@
     justify-content: space-around; 
     width: 30px;
     height: 30px;
-    
+
 }
 
 .our_founders {
     background-image: url("../img/good_cigars/bg_good_cigars.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0 20px 0;
     padding: 80px;
     height: 1717.600px;
     
@@ -43,8 +43,8 @@
 .john_bomstrom_info {
     border-radius: 50%;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 10px 0px 10px 0px;
+    margin: 0;
+    padding: 10px 0 10px 0;
     width: 70px; 
 }
 
@@ -68,7 +68,7 @@
     border-radius: 50%;
     box-sizing: border-box;
     margin: 25px auto;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0 10px 0;
     width: 70px;
 
 }
@@ -93,7 +93,7 @@
     border-radius: 50%;
     box-sizing: border-box;
     margin: 25px auto;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0 10px 0;
     width: 70px; 
 
 }
