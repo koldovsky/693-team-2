@@ -1,6 +1,6 @@
 
 /*Svitlana Vusatiuk start*/
-.our_fonders {
+.our_fonders_h2 {
     font-size: 40px;
     color: #c5a35c;
     text-align: center;
@@ -16,7 +16,7 @@
     padding: 10px 0px 30px 0px;
 }
 
-.john_bomstrom {
+.john_bomstrom_h3 {
     font-size: 24px;
     color: #c5a35c;
     text-align: center;
@@ -24,7 +24,7 @@
     margin: 10px;
 }
 
-.jack_bomstrom {
+.jack_bomstrom_h3 {
     font-size: 24px;
     color: #c5a35c;
     text-align: center;
@@ -32,7 +32,7 @@
     margin: 10px;
 }
 
-.hugh_bomstrom {
+.hugh_bomstrom_h3 {
     font-size: 24px;
     color: #c5a35c;
     text-align: center;
