@@ -57,8 +57,16 @@
 
 .jack_bomstrom {
     background: #1b191a;
-    height: 450px;
-    margin: 25px;   
+    height: 491px;
+    width: 361px;
+    margin: 25px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
 }
 
 .jack_bomstrom_info {
@@ -71,8 +79,15 @@
 
 .hugh_bomstrom {
     background: #1b191a;
-    height: 450px;
+    height: 491px;
+    width: 361px;
     margin: 25px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
 }
 
