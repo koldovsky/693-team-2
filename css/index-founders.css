@@ -10,10 +10,11 @@
 
 .container-button-websocial a {
     color: var(--main-text-color);
-    margin: 20px;
+    margin: 0;
     justify-content: space-around; 
     width: 30px;
     height: 30px;
+    padding: 0 auto 35px;
 
 }
 
@@ -44,7 +45,6 @@
 
 .john_bomstrom_info {
     border-radius: 50%;
-    box-sizing: border-box;
     margin: 25px 250px 0 250px;
     padding: 30px 0 25px 0;
     width: 70px; 
@@ -62,8 +62,10 @@
 
 .jack_bomstrom {
     background: #1b191a;
-    width: 570px;
+    width: 100%;
     margin: 20px;
+    justify-content: space-around;
+
 }
 
 .jack_bomstrom_info {
@@ -87,8 +89,10 @@
 
 .hugh_bomstrom {
     background: #1b191a;
-    width: 570px;
+    width: 100%;
     margin: 20px;
+    justify-content: space-around;
+
 }
 
 .hugh_bomstrom_info {
