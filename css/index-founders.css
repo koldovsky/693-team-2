@@ -35,15 +35,17 @@
 
 .john_bomstrom {
     background: #1b191a;
-    height: 491px;
-    width: 361px;
-    margin: 25px;
-    display: block;
+    width: 570px;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
+    display: block;
+    font-stretch: 100%;
+    font-weight: 400;
+    border-image-width: 1;
+    background-attachment: scroll;
 
 }
 
@@ -57,15 +59,17 @@
 
 .jack_bomstrom {
     background: #1b191a;
-    height: 491px;
-    width: 361px;
-    margin: 25px;
-    display: block;
+    width: 570px;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
+    display: block;
+    font-stretch: 100%;
+    font-weight: 400;
+    border-image-width: 1;
+    background-attachment: scroll;
 
 }
 
@@ -79,15 +83,17 @@
 
 .hugh_bomstrom {
     background: #1b191a;
-    height: 491px;
-    width: 361px;
-    margin: 25px;
-    display: block;
+    width: 570px;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
+    display: block;
+    font-stretch: 100%;
+    font-weight: 400;
+    border-image-width: 1;
+    background-attachment: scroll;
 
 }
 
