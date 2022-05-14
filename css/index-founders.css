@@ -21,14 +21,24 @@
     margin: auto;
     width: auto;
     text-align: center;
+    
 }
 
-.john_bomstrom_subs,
-.jack_bomstrom_subs,
-.hugh_bomstrom_subs {
-    margin: auto;
+.john_bomstrom {
+    background: #1b191a;
+    width: 570px;
+    margin: 25px;
+
+}
+
+.john_bomstrom_subs {
+    margin: 50px;
     width: auto;
+    font-size: 17px;
+    color: #fff;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .john_bomstrom_info {
@@ -39,6 +49,12 @@
     width: 70px; 
 }
 
+.jack_bomstrom {
+    background: #1b191a;
+    width: 570px;
+    margin: 25px;
+}
+
 .jack_bomstrom_info {
     border-radius: 50%;
     box-sizing: border-box;
@@ -47,11 +63,37 @@
     width: 70px; 
 }
 
+.jack_bomstrom_subs {
+    margin: 50px;
+    width: auto;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.hugh_bomstrom {
+    background: #1b191a;
+    width: 570px;
+    margin: 25px;
+}
+
 .hugh_bomstrom_info {
     border-radius: 50%;
     box-sizing: border-box;
     margin: 25px auto;
     padding: 50px 0px 50px 0px;
     width: 70px; 
+}
+
+.hugh_bomstrom_subs {
+    margin: 50px;
+    width: auto;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
 }
 
