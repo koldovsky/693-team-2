@@ -40,10 +40,6 @@
     width: 70px;
     margin: 20px;
     justify-content: space-around;
-    border-image-slice: 100%;
-    object-position: 49.259% 8.574%;
-    position: absolute;
-    background-repeat: no-repeat;
 
 }
 
@@ -68,7 +64,7 @@
 
 .jack_bomstrom {
     background: #1b191a;
-    width: 100%;
+    width: 70px;
     margin: 20px;
     justify-content: space-around;
 
@@ -95,7 +91,7 @@
 
 .hugh_bomstrom {
     background: #1b191a;
-    width: 100%;
+    width: 70px;
     margin: 20px;
     justify-content: space-around;
 
