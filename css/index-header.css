@@ -1,13 +1,13 @@
 
 /*Svitlana Vusatiuk start*/
-.our_fonders_h2 {
+.our_fonders {
     font-size: 40px;
     color: #c5a35c;
     text-align: center;
     font-family: 'BenchNine', sans-serif;
 }
 
-.our_founders_subs_p {
+.our_founders_subs {
     font-size: 17px;
     color: #d0c8b9;
     text-align: center;
@@ -16,38 +16,38 @@
     padding: 10px 0px 30px 0px;
 }
 
-.john_bomstrom_h3 {
-    font-size: 22px;
+.john_bomstrom {
+    font-size: 24px;
     color: #c5a35c;
     text-align: center;
     font-family: 'BenchNine', sans-serif;
     margin: 10px;
 }
 
-.jack_bomstrom_h3 {
-    font-size: 22px;
+.jack_bomstrom {
+    font-size: 24px;
     color: #c5a35c;
     text-align: center;
     font-family: 'BenchNine', sans-serif;
     margin: 10px;
 }
 
-.hugh_bomstrom_h3 {
-    font-size: 22px;
+.hugh_bomstrom {
+    font-size: 24px;
     color: #c5a35c;
     text-align: center;
     font-family: 'BenchNine', sans-serif;
     margin: 10px;
 }
 
-.our_gallery_h2 {
+.our_gallery {
     font-size: 40px;
     color: #c5a35c;
     text-align: center;
     font-family: 'BenchNine', sans-serif;
 }
 
-.our_gallery_subs_p {
+.our_gallery_subs {
     font-size: 17px;
     color: #d0c8b9;
     text-align: center;
