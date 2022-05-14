@@ -7,8 +7,13 @@
     height: auto;
 }
 
-.social-contacts {
+.container-button-websocial {
+    color: var(--main-text-color);
     margin: 20px;
+    justify-content: space-around; 
+    padding: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 .our_founders {
