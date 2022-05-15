@@ -31,7 +31,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 100px 0 100px;
+    padding: 100px 100px 100px 100px;
 
 }
 
@@ -40,7 +40,7 @@
     color: #d0c8b9;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding: 0 0 25px 0;
+    padding: 0 100px 25px 100px;
     
 
 }
