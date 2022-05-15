@@ -10,12 +10,16 @@
 
 .container-button-websocial a {
     color: var(--main-text-color);
-    justify-content: space-around; 
+    justify-content: space-between; 
     width: 20px;
-    margin: 40px 0 0 0;
-    box-sizing: border-box;
-    position: 0;
+    height: 20px;
     
+}
+
+.fa-brands {
+    margin: 40px 0 0 0;
+    display: inline-block;
+
 }
 
 .our_founders {
