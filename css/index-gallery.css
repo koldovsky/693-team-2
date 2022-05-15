@@ -16,7 +16,7 @@
 }
 
 .our_gallery_subs {
-    padding: 0 0 50px 0;
+    padding: 0 100px 50px 100px;
     width: auto;
     text-align: center;
     font-size: 17px;
@@ -28,6 +28,8 @@
 
 .gallery_gallery_info {
     width: 450px;
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
