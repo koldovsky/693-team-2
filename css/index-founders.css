@@ -132,7 +132,7 @@
     
 }
 
-@media (min-width: 740px) {
+@media (min-width: 940px) {
     .container_our_founders {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
