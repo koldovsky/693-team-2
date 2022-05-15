@@ -31,7 +31,7 @@
 
 @media (min-width: 420px) {
     .our_founders {
-        display: flex;
+        display: grid;
 
     }
 
