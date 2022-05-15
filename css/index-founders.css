@@ -30,28 +30,14 @@
 
 }
 
-@media (min-width: 600px) {
-    .our_founders {
-        display: grid;
-
-    }
-    
-}
-
-@media (min-width: 640px) {
-    .container_our_founders {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
-    }
-}
-
 .our_founders_subs_p {
-    font-size: 17px;
+    font-size: 16px;
     color: #d0c8b9;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     padding: 0 0 25px 0;
+    
+
 }
 
 .john_bomstrom {
@@ -73,7 +59,7 @@
 
 .john_bomstrom_subs_p {
     margin: 0;
-    font-size: 17px;
+    font-size: 16px;
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -100,11 +86,11 @@
 
 .jack_bomstrom_subs_p {
     margin: 0;
-    font-size: 17px;
+    font-size: 16px;
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding: 0 0 50px 0;
+    padding: 0 0 20px 0;
 
 }
 
@@ -127,7 +113,7 @@
 
 .hugh_bomstrom_subs_p {
     margin: 0;
-    font-size: 17px;
+    font-size: 16px;
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -135,3 +121,19 @@
 
 }
 
+
+@media (min-width: 600px) {
+    .our_founders {
+        display: grid;
+
+    }
+    
+}
+
+@media (min-width: 640px) {
+    .container_our_founders {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}
