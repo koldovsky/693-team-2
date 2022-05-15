@@ -14,13 +14,12 @@
         height: 200px;
     }
     .contacts__form{
-        height: fit-content;
+        height: 100%;
     }
 }
 
 .contacts-google-location{
     max-width: 90%;
-    margin-bottom: 40px;
 }
 
 .contacts__phone{
@@ -55,6 +54,11 @@ flex-direction: column;
     margin-top: 10px;
     margin-bottom: 10px;
     height: 50px;
+}
+
+.contacts__form-bio{
+    height: 100px;
+    margin-bottom: 50px;
 }
 
 .contacts__btn{
