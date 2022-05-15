@@ -22,9 +22,11 @@
     background-image: url("../img/good_cigars/bg_good_cigars.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
-    max-width: 1100px;
-    height: 1715px;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
