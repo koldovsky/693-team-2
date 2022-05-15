@@ -14,7 +14,7 @@
     justify-content: space-around; 
     width: 30px;
     height: 30px;
-    padding: 10px 0 40px 0;
+    padding: 10px 0 50px 0;
 
 }
 
@@ -60,8 +60,7 @@
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    -webkit-box-direction: normal;
-    padding: 40px 40px 40px 40px;
+    padding: 70px 30px 40px 30px;
 
 }
 
@@ -88,7 +87,7 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     -webkit-box-direction: normal;
-    padding: 40px 40px 40px 40px;
+    padding: 70px 30px 40px 30px;
 
 }
 
@@ -115,7 +114,7 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     -webkit-box-direction: normal;
-    padding: 40px 40px 40px 40px;
+    padding: 70px 30px 40px 30px;
 
 }
 
