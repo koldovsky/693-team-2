@@ -7,11 +7,20 @@
     height: 800px;
 }
 
+.our_gallery_h2 {
+    font-size: 40px;
+    color: #c5a35c;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    
+}
+
 .our_gallery_subs {
     padding: 0 0 50px 0;
     width: auto;
     text-align: center;
-    font-size: 19px;
+    font-size: 17px;
+    color: #d0c8b9;
     vertical-align: baseline;
     font-family: 'Roboto', sans-serif;
     

@@ -40,13 +40,11 @@
 }
 
 .our_founders_subs_p {
-    margin: 0;
-    width: auto;
+    font-size: 17px;
+    color: #d0c8b9;
     text-align: center;
-    font-size: 19px;
     font-family: 'Roboto', sans-serif;
-    padding: 170px 0 170px 0;
-    
+    padding: 0 0 25px 0;
 }
 
 .john_bomstrom {
