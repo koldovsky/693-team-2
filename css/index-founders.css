@@ -35,7 +35,15 @@
         display: grid;
 
     }
+    
+}
 
+@media (min-width: 640px) {
+    .container_our_founders {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
 }
 
 .our_founders_subs_p {
