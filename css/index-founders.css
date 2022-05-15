@@ -45,7 +45,7 @@
 
 .john_bomstrom_info {
     border-radius: 50%;
-    margin: 25px 250px 0 250px;
+    margin: 0 auto;
     padding: 30px 1 25px 1;
     width: 70px;
 
@@ -71,11 +71,9 @@
 
 .jack_bomstrom_info {
     border-radius: 50%;
-    box-sizing: border-box;
-    margin: 25px 250px 0 250px;
-    padding: 30px 0 25px 0;
+    margin: 0 auto;
+    padding: 30px 1 25px 1;
     width: 70px;
-    position: center;
 
 }
 
@@ -99,11 +97,9 @@
 
 .hugh_bomstrom_info {
     border-radius: 50%;
-    box-sizing: border-box;
-    margin: 25px 250px 0 250px;
-    padding: 30px 0 25px 0;
+    margin: 0 auto;
+    padding: 30px 1 25px 1;
     width: 70px;
-    position: center; 
 
 }
 
