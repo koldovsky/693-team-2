@@ -8,7 +8,7 @@
     height: auto;
 }
 
-.container-button-social a {
+.container-button-websocial a {
     color: var(--main-text-color);
     margin: 0;
     justify-content: space-around; 
