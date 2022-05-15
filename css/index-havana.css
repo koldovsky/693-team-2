@@ -6,11 +6,14 @@
     padding-top: 90px;
     padding-bottom: 50px;
 }
+.havana_text {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .location__image {
     padding-left: 0px;
     padding-right: 15px;
     min-height: 32px;
-    display: flex;
     margin: 10px 10px;
 }
 .havana__h2 {
@@ -20,6 +23,9 @@
 .white_line_left {
   margin-right: auto;
   padding-left: 20px;
+  width: 100%;
+  max-width: 358px;
+  height: auto;
 }
 .havana__h4 {
     font-family: 'Robotto', sans-serif;
@@ -37,18 +43,22 @@
 }
 .container-button-social a {
     color: var(--main-text-color);
-    margin: 20px;
-    justify-content: space-around; 
+    justify-content: left; 
     width: 30px;
     height: 30px;
+}
+.fa-brands {
+    margin: 20px;
+    display: inline-block;
+   
 }
 .navigation-banner-links {
     padding: 14px 20px;
     justify-content: space-around;
     text-decoration: none;
     display: inline-block;
-    margin-top: 10px;
-    text-align: left;
+    margin-right: auto;
+  
 }
 .banner_contact {
     padding: 14px 20px;
