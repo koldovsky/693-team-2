@@ -22,10 +22,8 @@
     background-image: url("../img/good_cigars/bg_good_cigars.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px 0 20px 0;
-    padding: 80px;
-    width: 100%;
-    height: 1717.600px;
+    margin: auto;
+    max-width: 980px;
 
 }
 
