@@ -38,8 +38,8 @@
 .john_bomstrom {
     background: #1b191a;
     width: 100%;
-    margin: 20px;
-    justify-content: space-around;
+    justify-content: center;
+    display: flex;
 
 }
 
