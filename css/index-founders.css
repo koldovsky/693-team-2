@@ -29,6 +29,14 @@
 
 }
 
+@media (min-width: 600px) {
+    .our_founders {
+        display: flex;
+        
+    }
+
+}
+
 .our_founders_subs_p {
     margin: 0;
     width: auto;
