@@ -71,6 +71,12 @@ flex-direction: column;
     margin-bottom: 50px;
 }
 
+.contacts ::placeholder{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
 .contacts__btn{
     margin-top: 20px;
 }
