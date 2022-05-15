@@ -10,9 +10,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .contacts-google-location{
-        height: 200px;
-    }
     .contacts__form{
         height: 100%;
     }
@@ -20,7 +17,10 @@
 
 .contacts-google-location{
     max-width: 90%;
+    max-height: 50vh;
 }
+
+
 
 .contacts__phone{
     display: flex;
