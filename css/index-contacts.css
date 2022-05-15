@@ -38,6 +38,16 @@
     margin-bottom: 15px;
 }
 
+.contacts__address, .contacts__contacts{
+    display: flex;
+    align-items: center;
+}
+
+.contacts__text{
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
 .contacts__form{
 background-color: var(--main-bg-color);
 padding-top: 15%;
