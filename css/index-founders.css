@@ -10,7 +10,7 @@
 
 .container-button-websocial a {
     color: var(--main-text-color);
-    margin: 0;
+    margin: 20px;
     justify-content: space-around; 
     width: 30px;
     height: 30px;
@@ -34,6 +34,7 @@
     text-align: center;
     font-size: 19px;
     font-family: 'Roboto', sans-serif;
+    padding: 170px 0 170px 0;
     
 }
 
@@ -60,6 +61,7 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     -webkit-box-direction: normal;
+    padding: 40px 30px 40px 30px;
 
 }
 
@@ -74,18 +76,19 @@
 .jack_bomstrom_info {
     border-radius: 50%;
     margin: 0 auto;
-    padding: 30px 1 25px 1;
+    padding: 30px 0 20px 0;
     width: 70px;
 
 }
 
 .jack_bomstrom_subs_p {
-    margin: 50px;
-    width: auto;
+    margin: 0;
     font-size: 17px;
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    -webkit-box-direction: normal;
+    padding: 40px 30px 40px 30px;
 
 }
 
@@ -100,18 +103,19 @@
 .hugh_bomstrom_info {
     border-radius: 50%;
     margin: 0 auto;
-    padding: 30px 1 25px 1;
+    padding: 30px 0 20px 0;
     width: 70px;
 
 }
 
 .hugh_bomstrom_subs_p {
-    margin: 50px;
-    width: auto;
+    margin: 0;
     font-size: 17px;
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    -webkit-box-direction: normal;
+    padding: 40px 30px 40px 30px;
 
 }
 
