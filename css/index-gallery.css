@@ -18,12 +18,12 @@
 }
 
 .our_gallery_subs {
-    padding: 0 120px 25px 120px;
+    font-size: 19px;
+    color: var(--main-text-color);
     text-align: center;
-    font-size: 17px;
-    color: #d0c8b9;
-    vertical-align: baseline;
     font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    width: 760px;
     
 }
 
