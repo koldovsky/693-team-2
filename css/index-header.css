@@ -71,8 +71,10 @@ A {
 }
 
 .header__block {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
     padding-top: 20px;
+    display: block;
+    text-align: center;
 }
 
 /* Diana Vesna end*/

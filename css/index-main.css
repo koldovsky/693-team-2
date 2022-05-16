@@ -160,7 +160,19 @@
     display: flex;
     justify-content: space-around;
 }
+.coop-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
+.coop-icon1 {
+    padding: 40px;
+    background-color:#201e1e;
+    border-radius: 90px;
+    margin: 30px;
+}
 /*Diana Vesna end*/
 
 /* Diana vesna start*/
@@ -171,3 +183,5 @@
     width: 50px;
     height: 50px;
 }
+
+/*Diana Vesna end*/
