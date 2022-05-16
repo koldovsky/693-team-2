@@ -156,9 +156,12 @@
 
 /*Diava Vesna start*/
 .coop-btns {
-    margin-top: 50px;
-    display: flex;
+    
     justify-content: space-around;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .coop-icons {
     display: flex;
