@@ -5,6 +5,8 @@
     margin: 10px 0px 20px 0px;
     padding: 80px;
     height: 800px;
+    align-items: center
+    
 }
 
 .our_gallery_h2 {
@@ -27,7 +29,7 @@
 
 .gallery_gallery_info {
     width: 310px;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 
