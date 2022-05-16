@@ -25,12 +25,11 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     padding-top: 15px;
-    width: 760px;
     
 }
 
 .gallery_gallery_info {
-    width: 310px;
+    width: 345px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
