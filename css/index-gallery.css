@@ -13,14 +13,14 @@
 
 .our_gallery_h2 {
     font-size: 40px;
-    color: #c5a35c;
+    color: var(--main-gold-color);
     text-align: center;
     font-family: 'BenchNine', sans-serif;
     
 }
 
 .our_gallery_subs {
-    font-size: 19px;
+    font-size: 17px;
     color: var(--main-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;

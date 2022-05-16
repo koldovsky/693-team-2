@@ -36,8 +36,15 @@
 
 }
 
+.our_fonders_h2 {
+    font-size: 40px;
+    color: var(--main-gold-color);
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+}
+
 .our_founders_subs_p {
-    font-size: 19px;
+    font-size: 17px;
     color: var(--main-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -62,10 +69,18 @@
 
 }
 
+.john_bomstrom_h3 {
+    font-size: 26px;
+    color: #c5a35c;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    padding: 0 0 70px 0;
+}
+
 .john_bomstrom_subs_p {
     margin: 0;
-    font-size: 16px;
-    color: #fff;
+    font-size: 17px;
+    color: var(--white-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
 
@@ -88,10 +103,18 @@
 
 }
 
+.jack_bomstrom_h3 {
+    font-size: 26px;
+    color: #c5a35c;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    padding: 0 0 70px 0;
+}
+
 .jack_bomstrom_subs_p {
     margin: 0;
     font-size: 16px;
-    color: #fff;
+    color: var(--white-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
 
@@ -114,10 +137,18 @@
 
 }
 
+.hugh_bomstrom_h3 {
+    font-size: 26px;
+    color: #c5a35c;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    padding: 0 0 70px 0;
+}
+
 .hugh_bomstrom_subs_p {
     margin: 0;
     font-size: 16px;
-    color: #fff;
+    color: var(--white-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
 
