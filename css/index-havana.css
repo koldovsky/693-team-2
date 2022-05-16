@@ -6,6 +6,12 @@
     padding-top: 90px;
     padding-bottom: 50px;
 }
+@media (min-width: 768px) {
+    .havana {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
 .havana_text {
     padding-left: 15px;
     padding-right: 15px;
@@ -41,7 +47,7 @@
     text-align: left;
     margin: 20px;
 }
-.container-button-social a {
+.container-button-social a{
     color: var(--main-text-color);
     justify-content: left; 
     width: 30px;
@@ -50,7 +56,6 @@
 .fa-brands {
     margin: 20px;
     display: inline-block;
-   
 }
 .navigation-banner-links {
     padding: 14px 20px;
@@ -58,7 +63,7 @@
     text-decoration: none;
     display: inline-block;
     margin-right: auto;
-  
+    margin-top: 50px;
 }
 .banner_contact {
     padding: 14px 20px;
@@ -69,4 +74,19 @@
     padding: 14px 20px;
     margin: 5px;
     text-decoration: none;
+}
+.about_havana {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.container-button-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 20px;
+}
+.fa-instagram {
+    margin-left: 20px;
+    margin-right: 20px;
 }
