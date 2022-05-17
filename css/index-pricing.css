@@ -48,6 +48,9 @@
 .pricing_discribe>h4{
     margin: 30px auto;
 }
+.pricing_h3, .pricing_p{
+    margin: 0;
+}
 
 @media (min-width:767px) {
     .container_pricing_li {
