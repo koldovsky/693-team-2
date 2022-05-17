@@ -186,5 +186,17 @@
     width: 50px;
     height: 50px;
 }
+.icon2_coop {
+    padding: 40px;
+    background-color:#201e1e;
+    border-radius: 90px;
+    margin: 30px;
+}
 
+.icon3_coop {
+    padding: 40px;
+    background-color:#201e1e;
+    border-radius: 90px;
+    margin: 40px;
+}
 /*Diana Vesna end*/
