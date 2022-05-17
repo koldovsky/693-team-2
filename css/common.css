@@ -57,6 +57,7 @@ p{
 }
 .btn_light:hover{
     background-color: var(--button-changed-color);
+    color: var(--white-text-color);
 }
 .btn_dark{
     color: var(--white-text-color);
