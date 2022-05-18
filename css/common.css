@@ -29,6 +29,7 @@ h2{
     color: var(--main-gold-color);
     font-size: 40px;
     font-family: 'BenchNine', sans-serif;
+    letter-spacing: .03em;
  }
 h3{
     color: var(--main-gold-color);
@@ -39,7 +40,7 @@ h4{
     color: var(--main-text-color);
     font-size: 19px;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: .03em;
+    
 }
 
 p{
