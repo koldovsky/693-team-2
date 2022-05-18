@@ -39,6 +39,7 @@ h4{
     color: var(--main-text-color);
     font-size: 19px;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: .03em;
 }
 
 p{
