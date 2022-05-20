@@ -1,6 +1,6 @@
 .testimonials {
-    padding-top: 90px;
-    padding-bottom: 40px;
+    padding: 80px 0;
+  
     background-color: var(--main-bg-color);
 }
 .testimonials-title {
@@ -14,4 +14,5 @@
     font-size: 19px;
     color: var(--main-text-color);
     text-align: center;
+    margin-bottom: 40px;
 }

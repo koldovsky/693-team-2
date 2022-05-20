@@ -1,10 +1,21 @@
 .havana {
     background-color: var(--main-bg-color);
     font-size: 17px;
-    line-height: 1.5;
     font-family: Roboto, sans-serif;
-    padding-top: 90px;
-    padding-bottom: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+@media (min-width: 768px) {
+    .havana {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.about_havana {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 .havana_text {
     padding-left: 15px;
@@ -19,6 +30,7 @@
 .havana__h2 {
     text-align: left;
     margin: 20px;
+    padding-top: 8px;
 }
 .white_line_left {
   margin-right: auto;
@@ -40,17 +52,22 @@
     color: var(--white-text-color);
     text-align: left;
     margin: 20px;
+    padding-top: 20px;
 }
-.container-button-social a {
+.container-button-social a{
     color: var(--main-text-color);
     justify-content: left; 
     width: 30px;
     height: 30px;
+    font-size: 20px;
 }
 .fa-brands {
     margin: 20px;
     display: inline-block;
-   
+}
+.fa-instagram {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .navigation-banner-links {
     padding: 14px 20px;
@@ -58,15 +75,22 @@
     text-decoration: none;
     display: inline-block;
     margin-right: auto;
-  
+    margin-top: 50px;
 }
 .banner_contact {
     padding: 14px 20px;
     margin: 5px;
     text-decoration: none;
+    white-space: nowrap;
 }
 .banner_learnmore {
     padding: 14px 20px;
     margin: 5px;
     text-decoration: none;
+}
+.container-button-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 20px;
 }

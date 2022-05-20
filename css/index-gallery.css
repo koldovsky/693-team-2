@@ -2,23 +2,36 @@
     background-image: url("../img/good_cigars/bg_good_cigars.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px 0px 20px 0px;
-    padding: 80px;
-    height: 800px;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 70px 80px 70px;
+    
+}
+
+.our_gallery_h2 {
+    font-size: 40px;
+    color: var(--main-gold-color);
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    
 }
 
 .our_gallery_subs {
-    padding: 0 0 50px 0;
-    width: auto;
+    font-size: 17px;
+    color: var(--main-text-color);
     text-align: center;
-    font-size: 19px;
-    vertical-align: baseline;
     font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
     
 }
 
 .gallery_gallery_info {
-    width: 450px;
-    position: absolute;
+    width: 345px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 
 }

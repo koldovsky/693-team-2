@@ -21,21 +21,28 @@
 }
 
 .partners_partners-logo {
-    width: 300px;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-content: center;
     background-color: #1b191a;
 }
 
 .partners_information {
-    background-image: url("../img/partners/background_partners.webp");
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url("../img/partners/background_partners.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
+    align-items: center;
     text-align: left;
     flex-direction: column;
     align-items: center;
-    padding: 0 15px;
+    padding: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 500px;
 }
 
 .wrapper {
@@ -48,8 +55,10 @@
     margin: 7.5px;
     padding-right: 20px;
     padding-left: 20px;
+    padding: 15px;
     height: 63px;
     width: 63px;
+    vertical-align: baseline;
 }
 
 .little_number {
@@ -75,19 +84,31 @@
     font-weight: bold;
     text-align: left;
     margin: 7.5px;
+    padding: 10px;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 600px) {
     .partners_information {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        
     }
 }
 
 @media (min-width: 990px) {
     .partners_information {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns:1fr 1fr 1fr;
         gap: 15px;
+    }
+}
+
+@media (min-width: 990px) {
+    .partners_partners-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:100%; 
+    height:auto;
+    align-content: center;
+    background-color: #1b191a;
     }
 }

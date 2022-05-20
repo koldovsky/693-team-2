@@ -1,59 +1,7 @@
 
 /*Svitlana Vusatiuk start*/
-.our_fonders_h2 {
-    font-size: 40px;
-    color: #c5a35c;
-    text-align: center;
-    font-family: 'BenchNine', sans-serif;
-}
 
-.our_founders_subs_p {
-    font-size: 17px;
-    color: #d0c8b9;
-    text-align: center;
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    padding: 10px 0px 30px 0px;
-}
-
-.john_bomstrom_h3 {
-    font-size: 24px;
-    color: #c5a35c;
-    text-align: center;
-    font-family: 'BenchNine', sans-serif;
-    margin: 10px;
-}
-
-.jack_bomstrom_h3 {
-    font-size: 24px;
-    color: #c5a35c;
-    text-align: center;
-    font-family: 'BenchNine', sans-serif;
-    margin: 10px;
-}
-
-.hugh_bomstrom_h3 {
-    font-size: 24px;
-    color: #c5a35c;
-    text-align: center;
-    font-family: 'BenchNine', sans-serif;
-    margin: 10px;
-}
-
-.our_gallery {
-    font-size: 40px;
-    color: #c5a35c;
-    text-align: center;
-    font-family: 'BenchNine', sans-serif;
-}
-
-.our_gallery_subs {
-    font-size: 17px;
-    color: #d0c8b9;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-    /*Svitlana Vusatiuk end */
+/*Svitlana Vusatiuk end */
     
 /* Diana Vesna start*/
 .header__top {
@@ -94,14 +42,10 @@ A {
 }
 
 .header__block {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
     padding-top: 20px;
+    display: block;
+    text-align: center;
 }
 
-.link {
-   display: inline-block;
-   vertical-align: top;
-   margin: 0 15px;
-   text-decoration: none;
-}
 /* Diana Vesna end*/

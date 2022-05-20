@@ -2,11 +2,8 @@
 
 /*Pawlo Bryk end*/
 /* Kateryna Danylo Start*/
-.good_cigars {
-    background-image: url("../img/good_cigars/bg_good_cigars.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
+
 .origin {
     background-image: url("../img/good_cigars/bg_origin.png");
     background-repeat: no-repeat;
@@ -18,66 +15,14 @@
     justify-content: center;
     min-height: 500px;
 }
-.good_cigars {
-    display: grid;
-    grid-template-columns: 100%;
-    padding: 90px 0;
-}
-
-.good_cigars_quality {
-    background-color: #313524;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: space-around;
-    align-items: center;
-    text-align: left;
-    margin: 25px 25px;
-    padding: 35px 45px;
-}
-
-.good_cigars_seed {
-    background-color: #3F3229;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: space-around;
-    align-items: center;
-    text-align: left;
-    margin: 25px 25px;
-    padding: 35px 45px;
-}
-.good_cigars_describe{
+.origin_container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     justify-content: center;
-    width: 100%;
-    max-width: 600px;
-    margin: 25px auto;
-    padding: 0 10px;
+    flex-direction: column;
 }
-.good_cigars_seed_describe{
-    padding: 35px 45px;
-}
-.good_cigars_quality_describe{
-    padding: 35px 45px;
-}
-.good_cigars_seed_img{
-    padding: 20px 0;
-}
-.good_cigars_quality_img{
-    padding: 20px 0;
-}
-
-@media (min-width:767px) {
-    .good_cigars_quality {
-        grid-template-columns: 1fr 1fr;
-    }
-    .good_cigars_seed{
-        grid-template-columns: 1fr 1fr;
-    }
-    .good_cigars_seed_img{
-        grid-area: 1/2/2/3;
-    } 
+.origin_p{
+    max-width: 750px;
 }
 /*Kateryna Danylo end */
 /*Vladyslav Volkov start*/
@@ -156,14 +101,44 @@
 
 /*Diava Vesna start*/
 .coop-btns {
-    margin-top: 50px;
-    display: flex;
+    
     justify-content: space-around;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.coop-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
+.coop-icon1 {
+    padding: 40px;
+    background-color:#201e1e;
+    border-radius: 90px;
+    margin: 30px;
+}
 /*Diana Vesna end*/
 
 /* Diana vesna start*/
 .cooperation-with-us-discribe {
     background-image: url(../img/good_cigars/bg_good_cigars.png);
 }
+.icon_coop_w_us {
+    width: 50px;
+    height: 50px;
+}
+.coop-icon2 {
+padding: 40px;
+background-color:#201e1e;
+border-radius: 90px;
+margin: 30px;
+}
+.icon2-coop {
+    width: 50px;
+    height: 50px;
+}
+/*Diana Vesna end*/

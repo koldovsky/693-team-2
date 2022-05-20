@@ -10,11 +10,16 @@
 
 .container-button-websocial a {
     color: var(--main-text-color);
-    margin: 0x;
-    justify-content: space-around; 
-    width: 30px;
-    height: 30px;
-    padding: 10px 0 50px 0;
+    justify-content: space-between; 
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    
+}
+
+.fa-brands {
+    margin: 40px 0 0 0;
+    display: inline-block;
 
 }
 
@@ -22,103 +27,146 @@
     background-image: url("../img/good_cigars/bg_good_cigars.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px 0 20px 0;
-    padding: 80px;
-    width: 100%;
-    height: 1717.600px;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 70px 80px 70px;
 
 }
 
-.our_founders_subs_p {
-    margin: 0;
-    width: auto;
+.our_fonders_h2 {
+    font-size: 40px;
+    color: var(--main-gold-color);
     text-align: center;
-    font-size: 19px;
+    font-family: 'BenchNine', sans-serif;
+}
+
+.our_founders_subs_p {
+    font-size: 17px;
+    color: var(--main-text-color);
+    text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding: 170px 0 170px 0;
-    
+    padding-top: 15px;
+
 }
 
 .john_bomstrom {
     background: #1b191a;
     width: 100%;
-    margin: 20px;
+    margin: 25px 0 25px 0;
     justify-content: space-around;
-    position: 0;
+    padding: 0 40px 30px 40px;
 
 }
 
 .john_bomstrom_info {
     border-radius: 50%;
     margin: 0 auto;
-    padding: 30px 0 20px 0;
+    padding: 30px 0 30px 0;
     width: 70px;
 
+}
+
+.john_bomstrom_h3 {
+    font-size: 26px;
+    color: #c5a35c;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    padding: 0 0 70px 0;
 }
 
 .john_bomstrom_subs_p {
     margin: 0;
     font-size: 17px;
-    color: #fff;
+    color: var(--white-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding: 70px 30px 40px 30px;
 
 }
 
 .jack_bomstrom {
     background: #1b191a;
     width: 100%;
-    margin: 20px;
+    margin: 25px 0 25px 0;
     justify-content: space-around;
-    position: 0;
+    padding: 0 40px 30px 40px;
 
 }
 
 .jack_bomstrom_info {
     border-radius: 50%;
     margin: 0 auto;
-    padding: 30px 0 20px 0;
+    padding: 30px 0 30px 0;
     width: 70px;
 
 }
 
+.jack_bomstrom_h3 {
+    font-size: 26px;
+    color: #c5a35c;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    padding: 0 0 70px 0;
+}
+
 .jack_bomstrom_subs_p {
     margin: 0;
-    font-size: 17px;
-    color: #fff;
+    font-size: 16px;
+    color: var(--white-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    -webkit-box-direction: normal;
-    padding: 70px 30px 40px 30px;
 
 }
 
 .hugh_bomstrom {
     background: #1b191a;
     width: 100%;
-    margin: 20px;
+    margin: 25px 0 25px 0;
     justify-content: space-around;
-    position: 0;
+    padding: 0 40px 30px 40px;
 
 }
 
 .hugh_bomstrom_info {
     border-radius: 50%;
     margin: 0 auto;
-    padding: 30px 0 20px 0;
+    padding: 30px 0 30px 0;
     width: 70px;
 
 }
 
+.hugh_bomstrom_h3 {
+    font-size: 26px;
+    color: #c5a35c;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    padding: 0 0 70px 0;
+}
+
 .hugh_bomstrom_subs_p {
     margin: 0;
-    font-size: 17px;
-    color: #fff;
+    font-size: 16px;
+    color: var(--white-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    -webkit-box-direction: normal;
-    padding: 70px 30px 40px 30px;
 
 }
 
+
+@media (min-width: 600px) {
+    .our_founders {
+        display: grid;
+
+    }
+    
+}
+
+@media (min-width: 940px) {
+    .container_our_founders {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}
