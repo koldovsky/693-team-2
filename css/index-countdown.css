@@ -2,3 +2,20 @@
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
+.under-contacts-countdown{
+display: flex;
+justify-content: space-around;
+padding: 20px 10%;
+}
+
+.under-contacts-countdown-div-img{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.under-contacts-countdown-img{
+    width: 50vw;
+    align-content: center;
+}
