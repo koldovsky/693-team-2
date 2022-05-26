@@ -8,7 +8,7 @@
     height: auto;
 }
 
-.container-button-websocial a {
+.container-button-websocial-john a {
     color: var(--main-text-color);
     justify-content: space-between; 
     width: 20px;
@@ -17,8 +17,25 @@
     
 }
 
+.container-button-websocial-jack a {
+    color: var(--main-text-color);
+    justify-content: space-between; 
+    width: 20px;
+    height: 20px;
+    align-items: center; 
+}
+
+.container-button-websocial-hugh a {
+    color: var(--main-text-color);
+    justify-content: space-between; 
+    width: 20px;
+    height: 20px;
+    align-items: center; 
+
+}
+
 .fa-brands {
-    margin: 40px 0 0 0;
+    margin: 0 0 40px 0;
     display: inline-block;
 
 }
