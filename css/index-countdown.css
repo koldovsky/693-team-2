@@ -12,7 +12,7 @@ justify-content: space-around;
 padding: 20px 10%;
 background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url("../img/contact_form_1/backgroud_contactform1.jpg");
 background-size: cover;
-background-position: center;
+background-position: 50% 70%;
 margin-left: 5%;
 margin-right: 5%;
 }
