@@ -1,4 +1,4 @@
-
+(function() {
 const countdown = () => {
     const countDay = new Date("June 27, 2022, 00:00:00").getTime();
     const currentTime = new Date().getTime();
@@ -21,3 +21,4 @@ const countdown = () => {
 }
 
 setInterval(countdown, 1000);
+})();
