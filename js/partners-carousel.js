@@ -1,9 +1,9 @@
 (function(){
     const slides = [
-       '<div class = slidep><img src="img/partners/partner_ann.png" alt = "Partner Ann"></div>',
-       '<div class = slidep><img src="img/partners/partner_orysia.png" alt = "Partner Orysia"></div>',
-       '<div class = slidep><img src="img/partners/partner_stepan.png" alt = "Partner Stepan"></div>',
-       '<div class = slidep><img src="img/partners/partner_taras.png" alt = "Partner Taras"></div>'
+       '<div class = slidep><img src="img/partners/british-american-tobacco.png" alt = "British-American-tobacco"></div>',
+       '<div class = slidep><img src="img/partners/future-company.png" alt = "Future Company"></div>',
+       '<div class = slidep><img src="img/partners/cigar-media-assosiation.png" alt = "Sigare Media Assosiation"></div>',
+       '<div class = slidep><img src="img/partners/tobacconist.png" alt = "Tobacconist"></div>'
     ];
 
     let currentSlide = 0;
