@@ -6,7 +6,7 @@
         window.addEventListener('scroll', function () {
                 let scrollPos = window.scrollY;
                 console.log(scrollPos);
-                if (scrollPos > 9100 && scrollPos<9800 ) {
+                if (scrollPos > 9500 && scrollPos<9900 ) {
                         pricingList.classList.add('visible');
                 }else{
                         pricingList.classList.remove('visible');
