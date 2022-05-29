@@ -7,7 +7,7 @@
         '<div class="slide"><img src="img/our_gallery/gallery_5.png" alt="Gallery 5"></div>'
     ];
 
-    let currentSlide = 0;
+    let currentSlide = 1;
 
     function renderCarousel() {
         const slideContainer = document.querySelector('.gallery-carousel slide');
