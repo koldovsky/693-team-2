@@ -1,6 +1,9 @@
-.gallery-carousel container img {
-    width: 50%;
-    display: flex;
+.our-gallery-carousel img {
+    width: 100%;
     margin: auto;
     
 }
+
+.our-gallery-carousel {
+    display: flex;
+    }
