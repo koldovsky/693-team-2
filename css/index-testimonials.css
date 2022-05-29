@@ -1,6 +1,5 @@
 .testimonials {
     padding: 80px 0;
-  
     background-color: var(--main-bg-color);
 }
 .testimonials-title {
@@ -16,17 +15,23 @@
     text-align: center;
     margin-bottom: 40px;
 }
-
-.testimonials-carousel {
-    min-height: 400px;
-    width: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-
-}
 .testimonials-carousel .slide {
     display: flex;
     justify-content: space-around;
     margin: 25px 0 25px 0;
+}
+.back {
+    background-color: var( --main-gold-color);
+display: flex;
+    width: 30px;
+    height: 30px;
+}
+.forward {
+    background-color: var( --main-gold-color); 
+   display: flex;
+    width: 30px;
+    height: 30px;
+}
+.slide {
+    margin: auto;
 }
