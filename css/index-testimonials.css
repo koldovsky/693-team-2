@@ -18,7 +18,15 @@
 }
 
 .testimonials-carousel {
+    min-height: 400px;
     width: 50%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 
+}
+.testimonials-carousel .slide {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0 25px 0;
 }
