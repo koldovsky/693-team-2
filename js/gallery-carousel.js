@@ -10,7 +10,7 @@
     let currentSlide = 0;
 
     function renderCarousel() {
-        const slideContainer = document.querySelector('.gallery-carousel container');
+        const slideContainer = document.querySelector('.gallery-carousel slide');
         slideContainer.innerHTML = slides[currentSlide];
     }
 
