@@ -1,0 +1,6 @@
+.gallery-carousel container img {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    
+}
