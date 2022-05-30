@@ -1,3 +1,7 @@
+.main-partners-carousel {
+    min-height: 400px;
+}
+
 .main-partners-carousel img {
     object-fit: contain;
     display: block;
