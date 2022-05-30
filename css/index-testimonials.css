@@ -15,23 +15,25 @@
     text-align: center;
     margin-bottom: 40px;
 }
+.testimonials-carousel{
+    display: flex;
+    justify-content: space-between;
+
+}
 .testimonials-carousel .slide {
     display: flex;
-    justify-content: space-around;
-    margin: 25px 0 25px 0;
+   
 }
 .back {
     background-color: var( --main-gold-color);
-display: flex;
     width: 30px;
     height: 30px;
+    text-align: center;
+  
 }
 .forward {
     background-color: var( --main-gold-color); 
-   display: flex;
     width: 30px;
     height: 30px;
-}
-.slide {
-    margin: auto;
+    text-align: center;
 }
