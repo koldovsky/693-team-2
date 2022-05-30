@@ -9,8 +9,8 @@
     let currentSlide = 0;
 
     function renderCarousel() {
-       const carouselContainer = document.querySelector('.main-partners-carousel');
-       carouselContainer.innerHTML = slides[currentSlide];
+       const slidepContainer = document.querySelector('.main-partners-carousel .slidep');
+       slidepContainer.innerHTML = slides[currentSlide];
     }
 
     function nextSlide() {
