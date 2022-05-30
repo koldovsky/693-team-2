@@ -18,5 +18,15 @@
         renderCarousel();
     }
 
-    setInterval(nextSlide, 3000);
+    function prevSlide() {
+        currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
+        renderCarousel();
+    }
+
+    const btnForward = document.querySelector('.main-partners-carousel .forwardp');
+    btnForward.addEventListener('click', nextSlide);
+
+    const btnBack = document.querySelector('.main-partners-carousel .backp');
+    btnBack.addEventListener('click', prevSlide);
+
 })();
