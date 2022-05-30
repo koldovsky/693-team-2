@@ -55,6 +55,36 @@
     margin: 0;
 }
 
+/* css modal window */
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: var(--main-bg-color);
+}
+.modal_inner{
+    height: 100%;
+    max-width: 800px;
+    background-color: var(--main-gold-color);
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 5px;
+}
+.modal_top{
+    display: flex;
+    align-items: center;
+    background-color: var(--button-changed-color);
+}
+.modal_title{
+    flex-grow: 1;
+    padding: 0 15px;
+}
 @media (min-width:767px) {
     .container_pricing_li {
         flex-direction: row;
