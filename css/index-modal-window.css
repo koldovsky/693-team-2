@@ -28,3 +28,23 @@
     flex-grow: 1;
     padding: 0 15px;
 }
+.modal_close{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+}
+.modal_content{
+    padding: 0 15px;
+    line-height: 1.5;
+}
+.modal_bottom{
+    text-align: right;
+    padding: 0 15px 15px 15px;
+}
+.modal_btn{
+    display: inline-block;
+    cursor: pointer;
+}
