@@ -1,13 +1,5 @@
 .main-partners-carousel {
     min-height: 400px;
-}
-
-.main-partners-carousel img {
-    object-fit: contain;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    align-content: center;
-    background-color: #1b191a;
+    display: flex;
+    justify-content: space-between;
 }
