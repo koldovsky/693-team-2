@@ -11,6 +11,15 @@
     function renderCarousel() {
        const slidepContainer = document.querySelector('.main-partners-carousel .slidep');
        slidepContainer.innerHTML = slides[currentSlide];
+       if (window.innerWidth >= 600) {
+           const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
+           slidepContainer.innerHTML += slides[secondSlide];
+           if (window.innerWidth >= 900) {
+            const thirdSlide = secondSlide + 1 >= slides.length ? 0 : secondSlide + 1;
+            slidepContainer.innerHTML += slides[thirdSlide];
+
+           }
+       }
     }
 
     function nextSlide() {
@@ -28,5 +37,7 @@
 
     const btnBack = document.querySelector('.main-partners-carousel .backp');
     btnBack.addEventListener('click', prevSlide);
+
+    window.addEventListener('resize', renderCarousel);
 
 })();
