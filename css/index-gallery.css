@@ -24,14 +24,7 @@
     color: var(--main-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding-top: 15px;
+    padding-top: 0 0 25px 0;
     
 }
 
-.gallery_gallery_info {
-    width: 345px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-
-}
