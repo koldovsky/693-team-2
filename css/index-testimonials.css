@@ -26,15 +26,24 @@
    
 }
 .back {
-    background-color: var( --main-gold-color);
-    width: 30px;
-    height: 30px;
-    text-align: center;
+    color: var( --main-gold-color);
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: var( --main-bg-color);
+    border: 0px;
+    margin: auto;
+   
   
 }
 .forward {
-    background-color: var( --main-gold-color); 
-    width: 30px;
-    height: 30px;
-    text-align: center;
+    color: var( --main-gold-color);
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: var(--main-bg-color);
+    border: 0px;
+    margin: auto;
+  
+
 }
