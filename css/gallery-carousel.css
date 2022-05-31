@@ -11,7 +11,7 @@
    
 }
 
-.button .forward {
+.forward {
     width: 25px;
     border-radius: 50%;
     background-color: var(--main-gold-color);
@@ -20,7 +20,7 @@
 
 }
 
-.button .back {
+.back {
     width: 25px;
     border-radius: 50%;
     background-color: var(--main-gold-color);
