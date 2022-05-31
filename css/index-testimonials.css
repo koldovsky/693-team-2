@@ -4,7 +4,7 @@
 }
 .testimonials-title {
     font-family: 'BenchNine', sans-serif;
-    font-size: 34px;
+    font-size: 40px;
     color: var(--main-gold-color);
     text-align: center;
 }
@@ -16,34 +16,24 @@
     margin-bottom: 40px;
 }
 .testimonials-carousel{
-    min-height: 500px;
+    min-height: 600px;
     display: flex;
     justify-content: space-between;
-
 }
 .testimonials-carousel .slide {
-    display: flex;
-   
+    display: flex;  
 }
 .back {
-    color: var( --main-gold-color);
-    display: flex;
     width: 60px;
-    height: 60px;
-    background-color: var( --main-bg-color);
+    border-radius: 50%;
+    background-color: var( --main-gold-color);
     border: 0px;
     margin: auto;
-   
-  
 }
 .forward {
-    color: var( --main-gold-color);
-    display: flex;
     width: 60px;
-    height: 60px;
-    background-color: var(--main-bg-color);
+    border-radius: 50%;
+    background-color: var( --main-gold-color);
     border: 0px;
     margin: auto;
-  
-
 }
