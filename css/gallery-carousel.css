@@ -12,17 +12,13 @@
 }
 
 .button .forward {
-    width: 50%;
-    height: 50%;
+    width: 10%;
     background-color: #4c4c4c00;
-    border: 0px;
     margin: auto;
 }
 
 .button .back {
-    width: 50%;
-    height: 50%;
+    width: 10%;
     background-color: #4c4c4c00;
-    border: 0px;
     margin: auto;
 }
