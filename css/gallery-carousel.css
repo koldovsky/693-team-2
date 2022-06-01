@@ -1,7 +1,7 @@
 .our-gallery-carousel img {
     width: 370px;
     margin: auto;
-    padding: 0 5px 0 5px;
+    padding: 0 2px 0 2px;
     height: 250px;
     
 }
@@ -15,7 +15,7 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #ffffff33;
     border: 0px;
     margin: auto;
     
@@ -25,7 +25,7 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #ffffff33;
     border: 0px;
     margin: auto;
         
