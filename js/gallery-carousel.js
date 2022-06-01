@@ -19,6 +19,12 @@
         renderCarousel();
     }
 
-    setInterval(nextSlide, 5000);
+    // setInterval(nextSlide, 5000);
+    
+    renderCarousel();
+
+    const buttonForward = document.querySelector('.our-gallery-carousel .forward');
+    buttonForward.addEventListener(click, nextSlide);
+
 
 })();

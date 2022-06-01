@@ -1,8 +1,8 @@
 .our-gallery-carousel img {
-    width: 360px;
+    width: 380px;
     margin: auto;
     padding: 0 10px 0 10px;
-    height: 250px;
+    height: 260px;
     
 }
 
@@ -15,17 +15,17 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: var(--main-gold-color);
+    background-color: #ffffff;
     border: 0px;
     margin: auto;
     
 }
 
 .back {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
-    background-color: var(--main-gold-color);
+    background-color: #ffffff;
     border: 0px;
     margin: auto;
         
