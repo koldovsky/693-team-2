@@ -19,12 +19,11 @@
     
 }
 
-.our_gallery_subs {
+.our_gallery_subs_p {
     font-size: 17px;
     color: var(--main-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding-top: 0 0 25px 0;
-    
+ 
 }
 
