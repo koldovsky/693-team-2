@@ -24,7 +24,7 @@
     renderCarousel();
 
     const buttonForward = document.querySelector('.our-gallery-carousel .forward');
-    buttonForward.addEventListener(click, nextSlide);
+    buttonForward.addEventListener('click', nextSlide);
 
 
 })();
