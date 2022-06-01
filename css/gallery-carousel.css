@@ -1,8 +1,8 @@
 .our-gallery-carousel img {
-    width: 380px;
+    width: 360px;
     margin: auto;
     padding: 0 10px 0 10px;
-    height: 280px;
+    height: 250px;
     
 }
 
@@ -13,6 +13,7 @@
 
 .forward {
     width: 25px;
+    height: 25px;
     border-radius: 50%;
     background-color: var(--main-gold-color);
     border: 0px;
@@ -21,7 +22,8 @@
 }
 
 .back {
-    width: 25px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background-color: var(--main-gold-color);
     border: 0px;
