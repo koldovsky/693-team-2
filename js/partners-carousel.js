@@ -40,4 +40,6 @@
 
     window.addEventListener('resize', renderCarousel);
 
+    renderCarousel();
+
 })();
