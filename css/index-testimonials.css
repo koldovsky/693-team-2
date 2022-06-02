@@ -23,14 +23,14 @@
 .testimonials-carousel .slide {
     display: flex;  
 }
-.back {
+.backbut {
     width: 60px;
     border-radius: 50%;
     background-color: var( --main-gold-color);
     border: 0px;
     margin: auto;
 }
-.forward {
+.forwardbut {
     width: 60px;
     border-radius: 50%;
     background-color: var( --main-gold-color);
