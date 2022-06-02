@@ -5,13 +5,10 @@
     background-attachment: fixed;
     background-position: 52% 87%;
 }
-.visible {
-    background-color: var(--main-gold-color);
-}
 
 .container_pricing {
     padding: 30px;
-}ssss
+}
 .pricing_span_grey {
     color: var(--main-text-color);
     font-size: 19px;

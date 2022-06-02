@@ -577,25 +577,28 @@
     <!-- Start Modal Window -->
         <div class="modal">
             <div class="modal_inner">
-                <div class="modal_top">
                     <div class="modal_title">
-                        <span>some text</span>
-                        <button class="modal_close">Close</button>
+                        <span>Your order:</span>
                         <div class="modal_content">
-                            <div class="contacts__form">
+                            <div class="contacts_form">
+                                <div class="count">
+                                <input type="text" name="count_product" class="count_product">
+                                <input type="button" value="+" class="plus">
+                                <input type="button" value="-" class="minus">    
+                                </div>                     
                                 <input type="text" name="contacts__name" class="contacts_name "
                                 placeholder="Enter Your full name*" required>
-                                <input type="number" name="contacts__phone" class="contacts_phone"
+                                <input type="tel" name="contacts__phone" class="contacts_phone"
                                 placeholder="Enter Your phone number*" required>
                                 <input type="email" name="contacts__email" class="contacts_email"
                                 placeholder="Enter Your email address*" required>
                             </div>
                             <div class="modal_bottom">
-                            <button class="modal_btn btn_dark"> Order </button>
+                            <button class="modal_close btn_light">Close</button>
+                            <button class="modal_btn btn_light"> Order </button>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     <!-- End Modal Window -->
