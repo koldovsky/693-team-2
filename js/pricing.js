@@ -48,12 +48,37 @@
                 </div>
             </li>`;
         };
+        const productJSON =`[
+            {   
+                "id": "1",
+                "name": "ESTANDAR",
+                "countInPack": 10,
+                "price": 12, 
+                "imgUrl": "img/icons/icon1.svg"
+            },
+            {
+                "id": "2",
+                "name": "RESERVA",
+                "countInPack": 24,
+                "price": 20,
+                "imgUrl": "img/icons/icon2.svg"
+            },
+            {   
+                "id": "3",
+                "name": "LIMITADA",
+                "countInPack": 6,
+                "price": 27,
+                "imgUrl": "img/icons/icon1.svg"
+            }
+        ]
+        `;
+        const products = JSON.parse(productJSON);
+        renderProducts(products);
 
-
-        async function loadProducts (){
-                const response = await fetch('products.json');
-                const products = await response.json();
-                renderProducts(products);
-        };
-        loadProducts();
+        // async function loadProducts (){
+        //         const response = await fetch('products.json');
+        //         const products = await response.json();
+        //         renderProducts(products);
+        // };
+        // loadProducts();
 })();
