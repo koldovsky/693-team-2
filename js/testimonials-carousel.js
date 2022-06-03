@@ -33,10 +33,10 @@
     //setInterval(nextSlide, 1000);
     renderCarousel();
 
-    const btnForward = document.querySelector(".testimonials-carousel .forward");
+    const btnForward = document.querySelector(".testimonials-carousel .forwardbut");
     btnForward.addEventListener('click', nextSlide);
 
-    const btnBack = document.querySelector(".testimonials-carousel .back");
+    const btnBack = document.querySelector(".testimonials-carousel .backbut");
     btnBack.addEventListener('click', prevSlide);
 
     window.addEventListener('resize', renderCarousel);

@@ -22,6 +22,7 @@
 }
 .testimonials-carousel .slide {
     display: flex;  
+    margin: 5px;
 }
 .backbut {
     width: 60px;
