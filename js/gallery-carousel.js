@@ -29,5 +29,6 @@
     const buttonBack = document.querySelector('.our-gallery-carousel .back');
     buttonBack.addEventListener('click', previousSlide);
 
+    window.addEventListener('resize', renderCarousel);
 
 })();
