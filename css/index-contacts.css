@@ -1,64 +1,70 @@
-.contacts{
+.contacts {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 5%;
     background-image: url("../img/contacts/contacts-background.jpg");
 }
 
-@media (min-width: 768px){
-    .contacts{
+@media (min-width: 768px) {
+    .contacts {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .contacts__form{
+
+    .contacts__form {
         height: 100%;
+        padding-left: 80px;
+        padding-right: 80px;
     }
+
 }
 
-.contacts-google-location{
+.contacts-google-location {
     max-width: 90%;
     max-height: 40vh;
 }
 
 
 
-.contacts__phone{
+.contacts__phone {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-bottom: 30px;
 }
-.contacts__img_white_line{
+
+.contacts__img_white_line {
     margin-top: 20px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
-.contacts__h3{
+.contacts__h3 {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.contacts__address, .contacts__contacts{
+.contacts__address,
+.contacts__contacts {
     display: flex;
     align-items: center;
 }
 
-.contacts__text{
+.contacts__text {
     margin-left: 20px;
     font-family: sans-serif;
 }
 
-.contacts__form{
-background-color: var(--main-bg-color);
-padding-top: 15%;
-padding-bottom: 15%;
-padding-left: 80px;
-padding-right: 80px;
-display: flex;
-flex-direction: column;
+.contacts__form {
+    background-color: var(--main-bg-color);
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-.contacts__form-fields{
+.contacts__form-fields {
     background-color: var(--button-changed-color);
     border: 0px;
     margin-top: 10px;
@@ -66,17 +72,17 @@ flex-direction: column;
     height: 50px;
 }
 
-.contacts__form-bio{
+.contacts__form-bio {
     height: 100px;
     margin-bottom: 50px;
 }
 
-.contacts ::placeholder{
+.contacts ::placeholder {
     font-family: sans-serif;
     text-align: center;
     font-size: 15px;
 }
 
-.contacts__btn{
+.contacts__btn {
     margin-top: 20px;
 }
