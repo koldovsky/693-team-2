@@ -27,7 +27,7 @@
     buttonForward.addEventListener('click', nextSlide);
 
     const buttonBack = document.querySelector('.our-gallery-carousel .back');
-    buttonBack.addEventListener('click', prevSlide);
+    buttonBack.addEventListener('click', nextSlide);
 
     window.addEventListener('resize', renderCarousel);
 
