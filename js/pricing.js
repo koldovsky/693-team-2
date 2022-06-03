@@ -19,7 +19,7 @@
                             cigar</span>
                     </div>
                     <div class="pricing_button_order">
-                        <button class="btn_light pricing_btn" id="first_pricing_btn">ORDER</button>
+                        <a href="#contacts"><button class="btn_light pricing_btn" id="first_pricing_btn">ORDER</button></a>
                     </div>
                 </div>
             </li>`;
