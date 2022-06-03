@@ -1,4 +1,3 @@
-
 .history {
     background-color: var(--main-bg-color);
     padding: 90px 0;
@@ -33,8 +32,9 @@
     flex-direction: column;
     align-items: center;
     padding: 0 15px;
-    
+
 }
+
 .history__subheader {
     color: var(--main-text-color);
     font-family: Roboto, sans-serif;
@@ -88,17 +88,17 @@
 
 @media (min-width: 760px) {
     .history__dates {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 30px;
-    }  
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
 }
 
 @media (min-width: 990px) {
     .history__dates {
-grid-template-columns: 1fr 1fr 1fr 1fr;
-gap: 15px;
-    }  
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 15px;
+    }
 }
 
 /*CAROUSEL*/
@@ -115,7 +115,13 @@ gap: 15px;
     height: 190px;
     margin: 15px 15px;
     padding: 20px 27px;
+    transition: transform .5s;
+}
 
+.history-product__img-carousel:hover {
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(1.5);
 }
 
 .cigars__carousel .slide {
@@ -126,14 +132,15 @@ gap: 15px;
 .left {
     width: 26px;
     border-radius: 50%;
-    background-color: var( --main-gold-color);
+    background-color: var(--main-gold-color);
     border: 0px;
     margin: auto;
 }
+
 .right {
     width: 30px;
     border-radius: 50%;
-    background-color: var( --main-gold-color);
+    background-color: var(--main-gold-color);
     border: px;
     margin: auto;
 }
