@@ -92,11 +92,11 @@
             <h4 class="partners__subheader">
                 The excellence of our premium tobacco has been evaluated by our partners:
             </h4>
-        <div class="main-partners-carousel container">
-            <button class="backp"></button>
-            <div class="slidep"></div>
-            <button class="forwardp"></button>
-        </div>
+            <div class="main-partners-carousel container">
+                <button class="backp"></button>
+                <div class="slidep"></div>
+                <button class="forwardp"></button>
+            </div>
             <div class="partners_information">
                 <article class="grid_partners">
                     <h2 class="partners__number-h2 little_number"> 15 </h2>
@@ -155,6 +155,12 @@
             </div>
             <div class="inform-button-container">
                 <a href="#50_qual" class="inform-button">MORE ABOUT US</a>
+            </div>
+            <!--Carousel-->
+            <div class="cigars__carousel">
+                <button class="left">❮</button>
+                <div class="slide"></div>
+                <button class="right">❯</button>
             </div>
         </section>
         <!-- Denis Voytov end -->
@@ -386,11 +392,11 @@
                 <p class="testimonials__subtitle">Some feedback on Havana cigars from our partners.</p>
                 <div class="testimonials-carousel container">
                     <button class="backbut"><img src="img/testimonials/previous.png"></button>
-                    <div class="slide"></div> 
+                    <div class="slide"></div>
                     <button class="forwardbut"><img src="img/testimonials/next.png"></button>
-                  </div>
+                </div>
             </div>
-         </section>
+        </section>
         <!--Rimma Vitkovska's end-->
         <!-- Vladyslav Volkov's start -->
         <section id="our-brands" class="our-brands_section">
@@ -431,11 +437,11 @@
             <img class="img_white_line" src="img/optimized_after_maijor_word.png" alt="line" width="400">
             <p class="our_gallery_subs">From the first seed planted to packed cigars on the shelves of our stores,
                 we guarantee you<br>the high quality of Havana tobacco products.</p>
-                <div class="our-gallery-carousel">
-                    <button class="back">ᐊ</button>
-                    <div class="slide"></div>
-                    <button class="forward">ᐅ</button>
-                </div>
+            <div class="our-gallery-carousel">
+                <button class="back">ᐊ</button>
+                <div class="slide"></div>
+                <button class="forward">ᐅ</button>
+            </div>
         </section>
         <!-- Svitlana Vusatiuk end-->
         <!--Tina`s block start-->
@@ -574,33 +580,34 @@
     <script src="js/partners-carousel.js"></script>
     <script src="js/gallery-carousel.js"></script>
     <script src="js/cart.js"></script>
+    <script src="js/history-product-carousel.js"></script>
     <!-- Start Modal Window -->
-        <div class="modal">
-            <div class="modal_inner">
-                    <div class="modal_title">
-                        <span>Your order:</span>
-                        <div class="modal_content">
-                            <div class="contacts_form">
-                                <div class="count">
-                                <input type="text" name="count_product" class="count_product">
-                                <input type="button" value="+" class="plus">
-                                <input type="button" value="-" class="minus">    
-                                </div>                     
-                                <input type="text" name="contacts__name" class="contacts_name "
-                                placeholder="Enter Your full name*" required>
-                                <input type="tel" name="contacts__phone" class="contacts_phone"
-                                placeholder="Enter Your phone number*" required>
-                                <input type="email" name="contacts__email" class="contacts_email"
-                                placeholder="Enter Your email address*" required>
-                            </div>
-                            <div class="modal_bottom">
-                            <button class="modal_close btn_light">Close</button>
-                            <button class="modal_btn btn_light"> Order </button>
-                            </div>
+    <div class="modal">
+        <div class="modal_inner">
+            <div class="modal_title">
+                <span>Your order:</span>
+                <div class="modal_content">
+                    <div class="contacts_form">
+                        <div class="count">
+                            <input type="text" name="count_product" class="count_product">
+                            <input type="button" value="+" class="plus">
+                            <input type="button" value="-" class="minus">
                         </div>
+                        <input type="text" name="contacts__name" class="contacts_name "
+                            placeholder="Enter Your full name*" required>
+                        <input type="tel" name="contacts__phone" class="contacts_phone"
+                            placeholder="Enter Your phone number*" required>
+                        <input type="email" name="contacts__email" class="contacts_email"
+                            placeholder="Enter Your email address*" required>
                     </div>
+                    <div class="modal_bottom">
+                        <button class="modal_close btn_light">Close</button>
+                        <button class="modal_btn btn_light"> Order </button>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
     <!-- End Modal Window -->
 </body>
 

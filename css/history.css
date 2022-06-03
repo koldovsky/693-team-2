@@ -100,3 +100,40 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 gap: 15px;
     }  
 }
+
+/*CAROUSEL*/
+
+.cigars__carousel {
+    margin: 110px 30px 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.history-product__img-carousel {
+    width: 210px;
+    height: 190px;
+    margin: 15px 15px;
+    padding: 20px 27px;
+
+}
+
+.cigars__carousel .slide {
+    display: flex;
+}
+
+
+.left {
+    width: 26px;
+    border-radius: 50%;
+    background-color: var( --main-gold-color);
+    border: 0px;
+    margin: auto;
+}
+.right {
+    width: 30px;
+    border-radius: 50%;
+    background-color: var( --main-gold-color);
+    border: px;
+    margin: auto;
+}
