@@ -26,5 +26,8 @@
     const buttonForward = document.querySelector('.our-gallery-carousel .forward');
     buttonForward.addEventListener('click', nextSlide);
 
+    const buttonBack = document.querySelector('.our-gallery-carousel .back');
+    buttonBack.addEventListener('click', nextSlide);
+
 
 })();
