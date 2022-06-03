@@ -1,32 +1,5 @@
 (function () {
         const pricingList = document.querySelector(".pricing_list");
-        const pricingBtn = document.querySelectorAll(".pricing_btn");
-        // const containerFromPosition = document.querySelector(".pricing_list");
-        // const backgroundPosition = containerFromPosition.getBoundingClientRect();
-
-        // changeBackground(pricingList);
-
-        // function changeBackground(pricingList) {
-        //         window.addEventListener('scroll', function () {
-        //                 if ((backgroundPosition.top <= 200) && (backgroundPosition.top > (-600))) {
-        //                         pricingList.classList.add('visible');
-        //                 } else {
-        //                         pricingList.classList.remove('visible');
-        //                 }
-
-
-        //         });
-        // }
-
-        // for (let btns of pricingBtn) {
-        //         btns.addEventListener('click', function () {
-        //                   pricingList.classList.to('visible');
-        //                  } else {
-        //                  pricingList.classList.remove('visible');
-        //                  }
-        //         });
-        // };
-
 
         function renderProducts(products){
                 for (let product of products)
@@ -51,32 +24,6 @@
                 </div>
             </li>`;
         };
-        // const productJSON =`[
-        //     {   
-        //         "id": "1",
-        //         "name": "ESTANDAR",
-        //         "countInPack": 10,
-        //         "price": 12, 
-        //         "imgUrl": "img/icons/icon1.svg"
-        //     },
-        //     {
-        //         "id": "2",
-        //         "name": "RESERVA",
-        //         "countInPack": 24,
-        //         "price": 20,
-        //         "imgUrl": "img/icons/icon2.svg"
-        //     },
-        //     {   
-        //         "id": "3",
-        //         "name": "LIMITADA",
-        //         "countInPack": 6,
-        //         "price": 27,
-        //         "imgUrl": "img/icons/icon1.svg"
-        //     }
-        // ]
-        // `;
-        // const products = JSON.parse(productJSON);
-        // renderProducts(products);
 
         async function loadProducts (){
                 const response = await fetch('products.json');
