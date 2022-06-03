@@ -5,6 +5,20 @@
     top: 0;
     width: 100%;
     height: 100%;
+    display: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 15px;
+    background-color: var(--main-bg-color);
+}
+.modal_visible{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
     padding: 15px;
     background-color: var(--main-bg-color);
 }
