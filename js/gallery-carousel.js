@@ -21,13 +21,18 @@
 
     // setInterval(nextSlide, 5000);
     
+    function prevSlide() {
+        currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
+        renderCarousel()
+    }
+
     renderCarousel();
 
-    const buttonForward = document.querySelector(".our-gallery-carousel .forward");
+    const buttonForward = document.querySelector('.our-gallery-carousel .forward');
     buttonForward.addEventListener('click', nextSlide);
 
-    const buttonBack = document.querySelector(".our-gallery-carousel .back");
-    buttonBack.addEventListener('click', prevSlide);
+    const buttonBackward = document.querySelector('.our-gallery-carousel .backward');
+    buttonBackward.addEventListener('click', prevSlide);
 
     window.addEventListener('resize', renderCarousel);
 
