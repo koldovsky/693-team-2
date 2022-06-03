@@ -23,10 +23,10 @@
     
     renderCarousel();
 
-    const buttonForward = document.querySelector('.our-gallery-carousel .forward');
+    const buttonForward = document.querySelector(".our-gallery-carousel .forward");
     buttonForward.addEventListener('click', nextSlide);
 
-    const buttonBack = document.querySelector('.our-gallery-carousel .back');
+    const buttonBack = document.querySelector(".our-gallery-carousel .back");
     buttonBack.addEventListener('click', prevSlide);
 
     window.addEventListener('resize', renderCarousel);
