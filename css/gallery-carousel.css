@@ -1,13 +1,19 @@
 .our-gallery-carousel img {
-    width: 365px;
+    width: 295px;
     margin: 35px auto;
     padding: 0 2px 0 2px;
-    height: 250px;
+    height: 180px;
     
 }
 
 .our-gallery-carousel .slide {
     display: flex;
+    justify-content: space-around;
+}
+
+.our-gallery-carousel {
+    display: flex;
+   
 }
 
 .forward {
