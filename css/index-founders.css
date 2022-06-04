@@ -74,7 +74,7 @@
 .john_bomstrom {
     background: #1b191a;
     width: 280px;
-    height: 580px;
+    height: 560px;
     margin: 20px 0 20px 0;
     justify-content: space-around;
     padding: 0 40px 0 40px;
@@ -103,14 +103,14 @@
     color: var(--white-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding: 0 0 30px 0;
+    padding: 0 0 50px 0;
 
 }
 
 .jack_bomstrom {
     background: #1b191a;
     width: 280px;
-    height: 580px;
+    height: 560px;
     margin: 20px 0 20px 0;
     justify-content: space-around;
     padding: 0 40px 0 40px;
@@ -139,14 +139,14 @@
     color: var(--white-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding: 0 0 30px 0;
+    padding: 0 0 50px 0;
 
 }
 
 .hugh_bomstrom {
     background: #1b191a;
     width: 280px;
-    height: 580px;
+    height: 560px;
     margin: 20px 0 20px 0;
     justify-content: space-around;
     padding: 0 40px 0 40px;
@@ -175,7 +175,7 @@
     color: var(--white-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding: 0 0 30px 0;
+    padding: 0 0 50px 0;
 
 }
 
