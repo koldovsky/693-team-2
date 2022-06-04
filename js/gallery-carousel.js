@@ -12,6 +12,10 @@
     function renderCarousel() {
         const slideContainer = document.querySelector('.our-gallery-carousel .slide');
         slideContainer.innerHTML = slides[currentSlide];
+        if (window.innerWidth > 600) {
+            const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
+            slideContainer.innerHTML += slides[secondSlide];
+        }
     }
 
     function nextSlide() {
