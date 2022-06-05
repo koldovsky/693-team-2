@@ -10,9 +10,6 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: 52% 87%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     min-height: 500px;
 }
 .origin_container{
@@ -24,6 +21,7 @@
 }
 .origin_p{
     max-width: 750px;
+    margin: 0 auto;
 }
 /*Kateryna Danylo end */
 /*Vladyslav Volkov start*/
