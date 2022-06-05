@@ -20,28 +20,32 @@
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    margin: 25px;
 }
 .origin_p{
     max-width: 750px;
 }
 /*Kateryna Danylo end */
 /*Vladyslav Volkov start*/
+.container_50-years{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+
+}
 .h2-years_quality {
-    font-family: 'BenchNine', sans-serif;
     color: var(--main-gold-color);
     text-align: center;
     font-size: 34px;
-    padding-top: 50px;
-    padding-bottom: 15px;
+    padding: 15px;
 }
 
 .title-years_cigar {
-    font-family: 'Robotto', sans-serif;
-    font-size: 19px;
     color: var(--main-text-color);
     text-align: center;
-    padding-top: 15px;
-    width: 760px;
+    padding: 15px;
 }
 
 .mid-title_quality {
@@ -53,17 +57,10 @@
     font-family: 'BenchNine', sans-serif;
     font-size: 18px;
     color: var(--main-gold-color);
-    padding-top: 20px;
-    padding-right: 50px;
-    text-align: left;
 }
 
 .title-mid_quality {
-    font-family: 'Robotto', sans-serif;
-    font-size: 17px;
     color: var(--white-text-color);
-    padding-top: 10px;
-    padding-right: 100px;
     text-align: left;
 }
 
@@ -78,23 +75,39 @@
 
 .img-line_quality {
     height: 32px;
-    width: 385px;
+    width: auto;
 }
 
 
 .img-cigars_quality {
     height: 239px;
-    width: 346px;
+    width: auto;
+}
+.describe_years{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
 }
 
 .img-cigars_years {
-    padding: 50px 50px 50px 50px;
+    padding: 20px 50px;
 }
 
 .content-title_quality {
-    box-sizing: border-box;
-    padding-left: 50px;
-    padding-bottom: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (min-width:767px) {
+    .describe_years {
+        flex-direction: row;
+    }
+    .content-title_quality{
+        margin: 50px;
+    } 
+    .img-cigars_quality{ padding: 20px;}
 }
 
 /*Vladyslav Volkov end*/
