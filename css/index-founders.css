@@ -176,25 +176,6 @@
 
 }
 
-.circleleft {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #ffffff33;
-    border: 0px;
-    margin: auto;
-}
-
-.circleright {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #ffffff33;
-    border: 0px;
-    margin: auto;
-}
-
-
 @media (min-width: 600px) {
     .our_founders {
         display: grid;
