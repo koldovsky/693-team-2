@@ -189,6 +189,6 @@
     .container_our_founders {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
+        gap: 60px;
     }
 }
