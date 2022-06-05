@@ -19,19 +19,6 @@
         "countInPack": 6,
         "price": 27,
         "imgUrl": "img/icons/icon1.svg"
-    },
-    {   
-        "id": "4",
-        "name": "MOODERS",
-        "countInPack": 8,
-        "price": 25,
-        "imgUrl": "img/icons/icon2.svg"
-    },
-    {   
-        "id": "5",
-        "name": "NUDO",
-        "countInPack": 12,
-        "price": 17,
-        "imgUrl": "img/icons/icon1.svg"
     }
+
 ]
