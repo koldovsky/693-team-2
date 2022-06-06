@@ -135,6 +135,14 @@
 /*Diana Vesna end*/
 
 /* Diana vesna start*/
+@media (min-width: 768px) {
+    .coop-icons {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
 .cooperation-with-us-discribe {
     background-image: url(../img/good_cigars/bg_good_cigars.png);
 }
@@ -159,5 +167,8 @@ margin: 30px;
     border-radius: 90px;
     margin: 30px;
     
+    }
+    .icon3-coop {
+        width: 40px;
     }
 /*Diana Vesna end*/
