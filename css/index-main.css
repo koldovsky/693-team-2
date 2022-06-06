@@ -135,12 +135,13 @@
 /*Diana Vesna end*/
 
 /* Diana vesna start*/
-@media (min-width: 768px) {
+@media (min-width: 1026px) {
     .coop-icons {
         display: flex;
         flex-direction: row;
     }
 }
+
 
 
 .cooperation-with-us-discribe {
