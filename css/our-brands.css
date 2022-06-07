@@ -1,0 +1,122 @@
+.subtitle__our__brands{
+    font-size: 26px;
+    font-family: 'BenchNine', sans-serif;
+    color: var(--main-gold-color);
+    padding-top: 15px;
+}
+
+.content__our__brands{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--white-text-color);
+    text-align: left;
+    padding-left: 20px;
+}
+
+.brands__h1{
+    font-size: 46px;
+    font-family: 'BenchNine', sans-serif;
+    color: var(--main-gold-color);
+    padding-top: 80px;
+    padding-bottom: 20px;
+    z-index: 2;
+    position: relative;
+}
+
+.top__p1{
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+    padding-top: 20px;
+    position: relative;
+    z-index: 3;
+    padding-bottom: 20px;
+}
+
+
+.block__fine__cigars{
+    display: grid;
+    grid-template-columns: 15% 15% 1fr;
+    padding: 32px 32px;
+    background-color: var(--main-bg-color);
+    margin: 20px 200px;
+    position: relative;
+    z-index: 3;
+
+}
+
+.block__cigar__world{
+    display: grid;
+    grid-template-columns: 15% 15% 1fr;
+    padding: 32px 32px;
+    background-color: var(--main-bg-color);
+    margin: 20px 200px;
+    position: relative;
+    z-index: 3;
+}
+
+.block__cigar__bar{
+    display: grid;
+    grid-template-columns: 15% 15% 1fr;
+    grid-template-rows: 20%;
+    padding: 32px 32px;
+    margin: 20px 200px;
+    background-color: var(--main-bg-color);
+    position: relative;
+    z-index: 3;
+}
+
+
+.our__brands__whiteline{
+    margin: 20px auto;
+    width: auto;
+    height: 32px;
+    position: relative;
+    z-index: 3;
+
+}
+
+.our__brands__block{
+    position: relative;
+    background: url(/img/our_brands/hand_rolling_bg.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-bottom: 70px;
+    background-attachment: fixed;
+}
+
+
+.our__brands__block::after{
+content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.9);
+  z-index: 1;
+}
+
+
+
+
+@media (max-width:767px) {
+    .our__brands__block{
+        background-position: center;
+    }
+    .block__fine__cigars {
+        grid-template-columns: auto;
+        padding: 32px 32px;
+        margin: 20px 20px;
+    }
+    .block__cigar__world{
+        grid-template-columns: auto;
+        padding: 32px 32px;
+        margin: 20px 20px;
+    }
+    .block__cigar__bar{
+        grid-template-columns: auto;
+        padding: 32px 32px;
+        margin: 20px 20px;
+    }
+}
