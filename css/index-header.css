@@ -47,5 +47,7 @@ A {
     display: block;
     text-align: center;
 }
-
+.request-button {
+    border: solid 1px black;
+}
 /* Diana Vesna end*/
