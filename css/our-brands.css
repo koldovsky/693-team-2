@@ -82,6 +82,7 @@
     -webkit-background-size: cover;
     background-size: cover;
     padding-bottom: 70px;
+    background-attachment: fixed;
 }
 
 
